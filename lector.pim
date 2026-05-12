@@ -3,7 +3,7 @@
   "title": "Studiář",
   "description": "",
   "created_at": "2026-05-12T13:14:26.794Z",
-  "updated_at": "2026-05-12T14:17:17.668Z",
+  "updated_at": "2026-05-12T14:27:07.820Z",
   "entities": [
     {
       "id": "1286776b-765c-43e0-b970-dd3c59e286ee",
@@ -79,6 +79,76 @@
       "valid_to": null,
       "created_at": "2026-05-12T14:14:20.319Z",
       "updated_at": "2026-05-12T14:15:49.487Z"
+    },
+    {
+      "id": "53f8da7f-4441-42d8-bb8e-3f4b25e2c814",
+      "title": "Diagramy pro edukaci AI expert",
+      "aspects": [
+        "Bookmark",
+        "soubor"
+      ],
+      "attributes": {},
+      "tags": [
+        "aktuální",
+        "rozpracované",
+        "soubory"
+      ],
+      "body": "",
+      "links": [],
+      "attachments": [
+        {
+          "id": "att-491159b4-0e15-4f97-9304-a50088fe7264",
+          "name": "AI expert edu diagramy.pup",
+          "type": "application/octet-stream",
+          "size": 5530,
+          "added_at": "2026-05-11T09:27:16.613Z",
+          "storage": "pending"
+        },
+        {
+          "id": "att-f1405490-0d23-4e27-962e-2ae84cfffa38",
+          "name": "AI expert edu diagramy.pup",
+          "type": "application/octet-stream",
+          "size": 11472,
+          "added_at": "2026-05-11T10:12:25.385Z",
+          "storage": "pending"
+        }
+      ],
+      "comments": [],
+      "confidence": "definitive",
+      "inbox": false,
+      "archived": false,
+      "valid_from": null,
+      "valid_to": null,
+      "created_at": "2026-05-11T09:26:01.225Z",
+      "updated_at": "2026-05-11T10:15:47.166Z",
+      "numericId": 163
+    },
+    {
+      "id": "9bbe427c-8ab0-4ffc-9d1c-2edd32a039fa",
+      "numericId": 25,
+      "title": "Prezentace AI expert učení AI",
+      "aspects": [
+        "Task",
+        "Idea"
+      ],
+      "attributes": {
+        "status": "in_progress",
+        "energy": "deep"
+      },
+      "tags": [
+        "aktuální"
+      ],
+      "body": "Co do takové přednášky\n\n- [ ] Teorie pravděpodobnosti\n- [ ] Popsat jak fungují palce při učení AI\n- [ ] Opravy a zlepšování\n- [ ] Různé formy hodnocení AI (palce, opravy textem, přidávání kontextu)\n",
+      "links": [],
+      "attachments": [],
+      "comments": [],
+      "confidence": "definitive",
+      "inbox": false,
+      "archived": false,
+      "valid_from": null,
+      "valid_to": null,
+      "created_at": "2026-05-12T09:24:28.275Z",
+      "updated_at": "2026-05-12T09:27:19.408Z"
     }
   ],
   "tags": [
@@ -86,7 +156,9 @@
     "interní pro autora",
     "publikovat",
     "rozpracované",
-    "znalosti"
+    "znalosti",
+    "aktuální",
+    "soubory"
   ],
   "savedViews": [],
   "customTemplates": [],
@@ -131,8 +203,8 @@
   ],
   "ghMeta": {
     "path": "michalradacz/Public/lector.pim",
-    "sha": "95b7cf7d4ae9aeb8febc5b09ed42f65a83a5901d",
-    "lastSyncAt": "2026-05-12T14:05:41.217Z",
+    "sha": "01993a7cde8998f6c013c284f88665a0b6344965",
+    "lastSyncAt": "2026-05-12T14:17:54.146Z",
     "branch": "main"
   }
 }
