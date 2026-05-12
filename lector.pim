@@ -3,7 +3,7 @@
   "title": "Studiář",
   "description": "",
   "created_at": "2026-05-12T13:14:26.794Z",
-  "updated_at": "2026-05-12T14:47:01.792Z",
+  "updated_at": "2026-05-12T16:35:46.295Z",
   "entities": [
     {
       "id": "1286776b-765c-43e0-b970-dd3c59e286ee",
@@ -89,12 +89,19 @@
       ],
       "attributes": {},
       "tags": [
+        "📦aiexpert",
+        "📦studiář",
         "aktuální",
         "rozpracované",
         "soubory"
       ],
       "body": "",
-      "links": [],
+      "links": [
+        {
+          "to": "9a522f26-3795-4e3d-a04f-0b41cacf3ec8",
+          "type": "partOf"
+        }
+      ],
       "attachments": [
         {
           "id": "att-491159b4-0e15-4f97-9304-a50088fe7264",
@@ -120,7 +127,7 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-11T09:26:01.225Z",
-      "updated_at": "2026-05-11T10:15:47.166Z",
+      "updated_at": "2026-05-12T16:35:45.989Z",
       "numericId": 163
     },
     {
@@ -136,10 +143,17 @@
         "energy": "deep"
       },
       "tags": [
+        "📦aiexpert",
+        "📦studiář",
         "aktuální"
       ],
       "body": "Co do takové přednášky\n\n- [ ] Teorie pravděpodobnosti\n- [ ] Popsat jak fungují palce při učení AI\n- [ ] Opravy a zlepšování\n- [ ] Různé formy hodnocení AI (palce, opravy textem, přidávání kontextu)\n",
-      "links": [],
+      "links": [
+        {
+          "to": "9a522f26-3795-4e3d-a04f-0b41cacf3ec8",
+          "type": "partOf"
+        }
+      ],
       "attachments": [],
       "comments": [],
       "confidence": "definitive",
@@ -148,7 +162,306 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-12T09:24:28.275Z",
-      "updated_at": "2026-05-12T09:27:19.408Z"
+      "updated_at": "2026-05-12T16:35:45.989Z"
+    },
+    {
+      "id": "d42657ea-d0da-4b90-b22a-16e331e51da9",
+      "title": "Brainstormování a věci k instrukcím pro TIN česky",
+      "aspects": [
+        "Idea"
+      ],
+      "attributes": {
+        "maturity": "percolating",
+        "topic": "Instrukce v TIn a jejich český popis i na základě tin schématu"
+      },
+      "tags": [
+        "📦aiexpert",
+        "📦studiář"
+      ],
+      "body": "",
+      "links": [],
+      "attachments": [],
+      "comments": [],
+      "confidence": "definitive",
+      "inbox": false,
+      "archived": false,
+      "valid_from": null,
+      "valid_to": null,
+      "created_at": "2026-05-11T08:16:32.329Z",
+      "updated_at": "2026-05-12T14:57:26.358Z",
+      "numericId": 159
+    },
+    {
+      "id": "6e014182-bc00-4bd9-8610-af7dcd681cff",
+      "title": "TIN specification (english)",
+      "aspects": [
+        "Document",
+        "Reference",
+        "Bookmark"
+      ],
+      "attributes": {
+        "version": "v2026-01",
+        "url": "https://egdilna.github.io/nastroje/tineditor/tinspec"
+      },
+      "tags": [
+        "📦aiexpert",
+        "📦studiář"
+      ],
+      "body": "[TIN specification (english)](https://egdilna.github.io/nastroje/tineditor/tinspec)\n\n# TIN — Target Instruction Notation\n\n**Schema:** `tin-schema.json` (JSON Schema draft 2020-12)\n\n## What is TIN?\n\nTIN (Target Instruction Notation) is a JSON format for specifying what an AI model should and should not do for a given role or task. It bundles together:\n\n- **What the model should do** (instructions, guidelines)\n- **What the model should not do** (prohibitions, out-of-scope areas)\n- **What materials it should use** and how to interpret each one\n- **What the output should look like**\n- **Metadata** (identity, version, language, purpose)\n- **Links to related TINs** for composition\n\nTIN is designed to be:\n\n- **Simple** — minimal required structure, everything optional is truly optional\n- **Language-neutral for content** — one TIN is in one language; translations are separate TINs\n- **English for schema** — keys, enum values, and type names are English regardless of content language\n- **Extensible** — a free-form `extensions` object captures anything not in the core spec\n\n## Top-level structure\n\n```\n{\n  \"tin\": \"1.0\",\n  \"metadata\": { ... },\n  \"context\": { ... },        // optional\n  \"sections\": [ ... ],\n  \"files\": [ ... ],          // optional\n  \"output\": { ... },         // optional\n  \"related\": [ ... ],        // optional\n  \"extensions\": { ... }      // optional\n}\n```\n\nRequired fields: `tin`, `metadata`, `sections`.\n\n## Fields\n\n### `tin` (required)\n\nVersion of the TIN format this document conforms to. Currently `\"1.0\"`.\n\n### `metadata` (required)\n\nIdentification and descriptive information about the TIN itself.\n\n| Field | Required | Description |\n|---|---|---|\n| `id` | yes | Stable identifier. Reverse-DNS (`cz.egdilna.nsesss-auditor`) or UUID recommended. |\n| `name` | yes | Short human-readable name. |\n| `lang` | yes | Language of the content (ISO 639-1, e.g. `cs`, `en`, `en-US`). |\n| `version` | yes | Semver of the TIN content (e.g. `1.0.0`). |\n| `description` | no | One-line summary. |\n| `purpose` | no | Longer explanation of why the TIN exists and when to use it. |\n| `type` | no | Kind of TIN. Recommended values: `role`, `task`, `guideline`, `workflow`, `evaluation`. Custom values allowed. |\n| `created` | no | ISO 8601 date or date-time. |\n| `modified` | no | ISO 8601 date or date-time. |\n| `author` | no | Name, email, or organization. |\n| `tags` | no | Array of strings for categorization. |\n| `license` | no | SPDX identifier recommended (e.g. `CC-BY-4.0`). |\n\n### `context` (optional)\n\nDescribes the overall context in which the TIN applies. Useful for setting expectations before diving into individual rules.\n\n| Field | Description |\n|---|---|\n| `scope` | What the TIN applies to. |\n| `assumptions` | What is assumed about the user, environment, or inputs. |\n| `out_of_scope` | What is explicitly NOT covered. |\n\n### `sections` (required)\n\nOrdered list of instruction sections. Each section has:\n\n| Field | Required | Description |\n|---|---|---|\n| `id` | yes | Identifier unique within the TIN. |\n| `title` | yes | Short section title. |\n| `instructions` | * | List of instructions (see below). |\n| `areas` | * | Nested sub-sections, same shape as Section (recursive). |\n\n\\* Either `instructions`, `areas`, or both must be present.\n\n#### Instructions\n\nEach instruction has a `type` and a `text`:\n\n| `type` | Meaning |\n|---|---|\n| `do` | The model MUST do this. |\n| `dont` | The model MUST NOT do this. |\n| `note` | Context, remark, or clarification — neither a command nor a prohibition. |\n\nThe `text` can contain Markdown; consumers can render it as-is or pass it to the model verbatim.\n\n### `files` (optional)\n\nReferenced materials the model should consult. Each file has:\n\n| Field | Required | Description |\n|---|---|---|\n| `id` | yes | Identifier unique within the TIN. |\n| `uri` | yes | Relative path or absolute URL. |\n| `understand` | yes | How to understand this file — what it is and its authority. |\n| `use` | yes | What to take from this file and how to use it. |\n| `ignore` | no | What to ignore or skip in this file. |\n| `scope` | no | Free-text description of the relevant part (e.g. \"Chapter 3\", \"Lines 40-120\"). |\n\n### `output` (optional)\n\nDescribes the expected output.\n\n| Field | Description |\n|---|---|\n| `description` | Free-text description of what the output should look like. |\n| `language` | MIME-like specifier: `text/czech`, `code/javascript`, `application/json`, `text/markdown`, etc. |\n\n### `related` (optional)\n\nArray of TIN identifiers this TIN relates to. Plain list of IDs; relationship kind is not encoded — if needed, describe it in `context` or an instruction.\n\n### `extensions` (optional)\n\nFree-form object for domain-specific fields. Consumers MUST ignore unknown keys here. Convention: prefix custom keys with `x-` (e.g. `x-my-org-field`).\n\n## Design principles\n\n1. **One TIN, one language.** Translations are separate TINs with the same `id` pattern but different `lang`.\n2. **English schema, localized content.** The shape is in English; content inside string values is in whatever language `metadata.lang` declares.\n3. **Markdown is auto-detected.** Don't specify content format — models recognize Markdown.\n4. **Flat where possible, nested where needed.** `sections` is flat by default; `areas` provides optional recursion.\n5. **Composition via `related`, not inheritance.** TIN doesn't have inheritance; keep each TIN self-contained and use `related` to point at companions.\n\n## Validation\n\nValidate a TIN file against `tin-schema.json` using any JSON Schema draft 2020-12 validator. Example in Python:\n\n```python\nimport json\nfrom jsonschema import Draft202012Validator\n\nwith open('tin-schema.json') as f:\n    schema = json.load(f)\nwith open('my-tin.json') as f:\n    tin = json.load(f)\n\nDraft202012Validator(schema).validate(tin)\n```\n\n## Example\n\nSee `tin-example.json` for a complete TIN describing an NSESSS audit assistant role.\n\n## Versioning\n\n- `tin` field in the document tracks TIN format version.\n- `metadata.version` tracks the TIN content version (semver).\n- Breaking changes to the format bump the major version (`2.0`); additive changes bump the minor version (`1.1`).\n",
+      "links": [],
+      "attachments": [],
+      "comments": [],
+      "confidence": "definitive",
+      "inbox": false,
+      "archived": false,
+      "valid_from": null,
+      "valid_to": null,
+      "created_at": "2026-05-11T08:18:30.014Z",
+      "updated_at": "2026-05-12T14:57:26.358Z",
+      "numericId": 160
+    },
+    {
+      "id": "8f79cc34-506b-4a65-8fc2-d5b997b43dde",
+      "title": "TIN specifikace (český překlad)",
+      "aspects": [
+        "Document",
+        "Reference",
+        "Bookmark"
+      ],
+      "attributes": {
+        "version": "v2026-01",
+        "url": "https://egdilna.github.io/nastroje/tineditor/tinspec-cs"
+      },
+      "tags": [
+        "📦aiexpert",
+        "📦studiář"
+      ],
+      "body": "[TIN specifikace (český překlad)](https://egdilna.github.io/nastroje/tineditor/tinspec-cs)\n\n# TIN — Target Instruction Notation\n\n\n(přeloženo z anglické specifikace)\n\n**Verze:** 1.0\n**Stav:** Návrh\n**Schéma:** `tin-schema.json` (JSON Schema draft 2020-12)\n\n## Co je TIN?\n\nTIN (Target Instruction Notation) je JSON formát pro popis toho, co má AI model pro danou roli nebo úkol dělat a co naopak dělat nemá. V jednom souboru sdružuje:\n\n- **Co model dělat má** (pokyny, pravidla)\n- **Co model dělat nemá** (zákazy, oblasti mimo záběr)\n- **S jakými materiály má pracovat** a jak má každý z nich chápat\n- **Jak má vypadat výstup**\n- **Metadata** (identita, verze, jazyk, účel)\n- **Odkazy na související TINy** pro kompozici\n\nTIN je navržen tak, aby byl:\n\n- **Jednoduchý** — minimum povinné struktury, vše volitelné je skutečně volitelné\n- **Jazykově neutrální v obsahu** — jeden TIN je v jednom jazyce; překlady jsou samostatné TINy\n- **Anglický ve schématu** — klíče, hodnoty enumů a názvy typů jsou anglicky bez ohledu na jazyk obsahu\n- **Rozšiřitelný** — volný objekt `extensions` pokryje cokoli, co není v základním schématu\n\n## Struktura nejvyšší úrovně\n\n```\n{\n  \"tin\": \"1.0\",\n  \"metadata\": { ... },\n  \"context\": { ... },        // volitelné\n  \"sections\": [ ... ],\n  \"files\": [ ... ],          // volitelné\n  \"output\": { ... },         // volitelné\n  \"related\": [ ... ],        // volitelné\n  \"extensions\": { ... }      // volitelné\n}\n```\n\nPovinná pole: `tin`, `metadata`, `sections`.\n\n## Pole\n\n### `tin` (povinné)\n\nVerze TIN formátu, kterému tento dokument odpovídá. Aktuálně `\"1.0\"`.\n\n### `metadata` (povinné)\n\nIdentifikace a popisné informace o TINu samotném.\n\n| Pole | Povinné | Popis |\n|---|---|---|\n| `id` | ano | Stabilní identifikátor. Doporučeno reverse-DNS (`cz.egdilna.nsesss-auditor`) nebo UUID. |\n| `name` | ano | Krátký lidsky čitelný název. |\n| `lang` | ano | Jazyk obsahu (ISO 639-1, např. `cs`, `en`, `en-US`). |\n| `version` | ano | Semver obsahu TINu (např. `1.0.0`). |\n| `description` | ne | Jednořádkové shrnutí. |\n| `purpose` | ne | Delší vysvětlení, proč TIN existuje a kdy ho použít. |\n| `type` | ne | Druh TINu. Doporučené hodnoty: `role`, `task`, `guideline`, `workflow`, `evaluation`. Vlastní hodnoty povoleny. |\n| `created` | ne | ISO 8601 datum nebo datum-čas. |\n| `modified` | ne | ISO 8601 datum nebo datum-čas. |\n| `author` | ne | Jméno, e-mail nebo organizace. |\n| `tags` | ne | Pole stringů pro kategorizaci. |\n| `license` | ne | Doporučen SPDX identifikátor (např. `CC-BY-4.0`). |\n\n### `context` (volitelné)\n\nPopisuje celkový kontext, ve kterém TIN platí. Užitečné pro nastavení očekávání ještě před tím, než se model dostane k jednotlivým pravidlům.\n\n| Pole | Popis |\n|---|---|\n| `scope` | Na co se TIN vztahuje. |\n| `assumptions` | Co se předpokládá o uživateli, prostředí nebo vstupech. |\n| `out_of_scope` | Co výslovně NENÍ pokryto. |\n\n### `sections` (povinné)\n\nUspořádaný seznam instrukčních sekcí. Každá sekce má:\n\n| Pole | Povinné | Popis |\n|---|---|---|\n| `id` | ano | Identifikátor unikátní v rámci TINu. |\n| `title` | ano | Krátký název sekce. |\n| `instructions` | * | Seznam instrukcí (viz níže). |\n| `areas` | * | Vnořené pod-sekce, stejný tvar jako Section (rekurzivně). |\n\n\\* Musí být přítomné aspoň jedno z `instructions`, `areas`, nebo obojí.\n\n#### Instrukce\n\nKaždá instrukce má `type` a `text`:\n\n| `type` | Význam |\n|---|---|\n| `do` | Model toto MUSÍ dělat. |\n| `dont` | Model toto NESMÍ dělat. |\n| `note` | Kontext, poznámka nebo upřesnění — ani příkaz, ani zákaz. |\n\n`text` může obsahovat Markdown; aplikace ho mohou vykreslit nebo předat modelu beze změny.\n\n### `files` (volitelné)\n\nOdkazované materiály, které má model konzultovat. Každý soubor má:\n\n| Pole | Povinné | Popis |\n|---|---|---|\n| `id` | ano | Identifikátor unikátní v rámci TINu. |\n| `uri` | ano | Relativní cesta nebo absolutní URL. |\n| `understand` | ano | Jak souboru rozumět — co to je a jakou má autoritu. |\n| `use` | ano | Co ze souboru vzít a jak ho použít. |\n| `ignore` | ne | Co v souboru ignorovat nebo přeskočit. |\n| `scope` | ne | Volný textový popis relevantní části (např. „Kapitola 3\", „Řádky 40–120\"). |\n\n### `output` (volitelné)\n\nPopisuje očekávaný výstup.\n\n| Pole | Popis |\n|---|---|\n| `description` | Volný textový popis toho, jak má výstup vypadat. |\n| `language` | MIME-like specifikátor: `text/czech`, `code/javascript`, `application/json`, `text/markdown` atd. |\n\n### `related` (volitelné)\n\nPole identifikátorů TINů, se kterými tento TIN souvisí. Prostý seznam ID; druh vztahu se neukládá — pokud je potřeba, popiš ho v `context` nebo v instrukci.\n\n### `extensions` (volitelné)\n\nVolný objekt pro doménově specifická pole. Aplikace MUSÍ ignorovat neznámé klíče zde. Konvence: prefixuj vlastní klíče `x-` (např. `x-nazev-organizace-pole`).\n\n## Návrhové principy\n\n1. **Jeden TIN, jeden jazyk.** Překlady jsou samostatné TINy se stejným vzorem `id`, ale jiným `lang`.\n2. **Anglické schéma, lokalizovaný obsah.** Tvar je anglicky; obsah uvnitř řetězců je v jazyce deklarovaném v `metadata.lang`.\n3. **Markdown se detekuje automaticky.** Neuvádí se formát obsahu — modely Markdown rozpoznají samy.\n4. **Plocho kde to jde, vnořeno kde je třeba.** `sections` jsou výchozí ploché; `areas` poskytují volitelnou rekurzi.\n5. **Kompozice přes `related`, ne dědičnost.** TIN nemá dědičnost; udržuj každý TIN jako samostatný celek a přes `related` na sebe TINy pouze odkazují.\n\n## Validace\n\nTIN soubor validuj proti `tin-schema.json` libovolným validátorem JSON Schema draft 2020-12. Příklad v Pythonu:\n\n```python\nimport json\nfrom jsonschema import Draft202012Validator\n\nwith open('tin-schema.json') as f:\n    schema = json.load(f)\nwith open('muj-tin.json') as f:\n    tin = json.load(f)\n\nDraft202012Validator(schema).validate(tin)\n```\n\n## Příklad\n\nKompletní TIN popisující roli asistenta pro audit NSESSS najdeš v `tin-example.json`.\n\n## Verzování\n\n- Pole `tin` v dokumentu sleduje verzi TIN formátu.\n- `metadata.version` sleduje verzi obsahu TINu (semver).\n- Nekompatibilní změny formátu zvyšují hlavní verzi (`2.0`); zpětně kompatibilní rozšíření zvyšují vedlejší verzi (`1.1`).\n",
+      "links": [
+        {
+          "to": "6e014182-bc00-4bd9-8610-af7dcd681cff",
+          "type": "derivedFrom",
+          "note": "český překlad"
+        }
+      ],
+      "attachments": [],
+      "comments": [],
+      "confidence": "definitive",
+      "inbox": false,
+      "archived": false,
+      "valid_from": null,
+      "valid_to": null,
+      "created_at": "2026-05-11T08:23:51.098Z",
+      "updated_at": "2026-05-12T14:57:26.358Z",
+      "numericId": 161
+    },
+    {
+      "id": "8bb0d06d-6b2d-4588-a7ac-c109dc891f47",
+      "title": "Nástroj TIN editor",
+      "aspects": [
+        "Bookmark",
+        "aplikace"
+      ],
+      "attributes": {
+        "url": "https://egdilna.github.io/nastroje/tineditor"
+      },
+      "tags": [
+        "📦aiexpert",
+        "📦studiář",
+        "chlubit se tím",
+        "nástroje",
+        "naše práce"
+      ],
+      "body": "⛓️ [TIN editor instrukcí AI](https://egdilna.github.io/nastroje/tineditor) je jednoduchý webový editor pro soubory a schémata řídících instrukcí pro umělou inteligenci ve formátu TIN (Target Instruction Notation), který je v angličtiné i češtině a umožňuje i lajkům sestavovat velice pokročilé instrukční sady pro profesionální zadání pro úkoly UI. Online běží na https://egdilna.github.io/nastroje/tineditor\n\n",
+      "links": [
+        {
+          "to": "6e014182-bc00-4bd9-8610-af7dcd681cff",
+          "type": "relatedTo",
+          "note": ""
+        },
+        {
+          "to": "8f79cc34-506b-4a65-8fc2-d5b997b43dde",
+          "type": "relatedTo",
+          "note": ""
+        }
+      ],
+      "attachments": [],
+      "comments": [],
+      "confidence": "definitive",
+      "inbox": false,
+      "archived": false,
+      "valid_from": null,
+      "valid_to": null,
+      "created_at": "2026-05-11T08:43:16.897Z",
+      "updated_at": "2026-05-12T14:57:26.358Z",
+      "numericId": 162
+    },
+    {
+      "id": "f94c3a02-854e-432a-b89d-e8247f82f30c",
+      "numericId": 175,
+      "title": "Brainstorming a rozmýšlení k přednášce EtikAI",
+      "aspects": [
+        "Note"
+      ],
+      "attributes": {},
+      "tags": [
+        "📦aiexpert",
+        "📦studiář"
+      ],
+      "body": "Výmluvy na AI\n\n> AI je děsivá. Právě vytvořila video mě na výletě v den, kdy jsem si v práci vzala nemocenskou.",
+      "links": [],
+      "attachments": [],
+      "comments": [],
+      "confidence": "definitive",
+      "inbox": true,
+      "archived": false,
+      "valid_from": null,
+      "valid_to": null,
+      "created_at": "2026-05-12T12:28:38.133Z",
+      "updated_at": "2026-05-12T14:57:26.358Z"
+    },
+    {
+      "id": "ad8ad9ff-79e3-49e2-bad3-b82e650c4c1d",
+      "numericId": 176,
+      "title": "Přednáška EtikAI 1 Etika a AI",
+      "aspects": [
+        "Note"
+      ],
+      "attributes": {},
+      "tags": [
+        "📦aiexpert",
+        "📦studiář"
+      ],
+      "body": "",
+      "links": [],
+      "attachments": [],
+      "comments": [],
+      "confidence": "definitive",
+      "inbox": true,
+      "archived": false,
+      "valid_from": null,
+      "valid_to": null,
+      "created_at": "2026-05-12T12:30:14.659Z",
+      "updated_at": "2026-05-12T14:57:26.358Z"
+    },
+    {
+      "id": "7e6d84ce-586e-4168-a97f-a26b71f0f857",
+      "numericId": 177,
+      "title": "Přednáška EtikAI 2 AI a etika",
+      "aspects": [
+        "Note"
+      ],
+      "attributes": {},
+      "tags": [
+        "📦aiexpert",
+        "📦studiář"
+      ],
+      "body": "",
+      "links": [],
+      "attachments": [],
+      "comments": [],
+      "confidence": "definitive",
+      "inbox": true,
+      "archived": false,
+      "valid_from": null,
+      "valid_to": null,
+      "created_at": "2026-05-12T12:30:52.639Z",
+      "updated_at": "2026-05-12T14:57:26.358Z"
+    },
+    {
+      "id": "9a522f26-3795-4e3d-a04f-0b41cacf3ec8",
+      "numericId": 180,
+      "title": "Tvorba předmětu AI expert celého",
+      "aspects": [
+        "Project"
+      ],
+      "attributes": {
+        "status": "active"
+      },
+      "tags": [
+        "📦aiexpert",
+        "📦studiář"
+      ],
+      "body": "",
+      "links": [],
+      "attachments": [],
+      "comments": [],
+      "confidence": "definitive",
+      "inbox": false,
+      "archived": false,
+      "valid_from": null,
+      "valid_to": null,
+      "created_at": "2026-05-12T14:40:19.377Z",
+      "updated_at": "2026-05-12T14:57:26.358Z"
+    },
+    {
+      "id": "eadf4c52-075f-4510-9b9f-44f17bbe9d75",
+      "numericId": 181,
+      "title": "Migrovat společné slide k AI do PIM hlavního nebo jen studiáře",
+      "aspects": [
+        "Task"
+      ],
+      "attributes": {
+        "status": "todo",
+        "priority": "high",
+        "energy": "medium"
+      },
+      "tags": [
+        "📦aiexpert",
+        "📦studiář"
+      ],
+      "body": "",
+      "links": [
+        {
+          "to": "9a522f26-3795-4e3d-a04f-0b41cacf3ec8",
+          "type": "partOf",
+          "note": ""
+        },
+        {
+          "to": "766d7e00-7fd5-4610-9767-017b90fabc87",
+          "type": "before",
+          "note": ""
+        }
+      ],
+      "attachments": [],
+      "comments": [],
+      "confidence": "definitive",
+      "inbox": false,
+      "archived": false,
+      "valid_from": null,
+      "valid_to": null,
+      "created_at": "2026-05-12T14:48:29.354Z",
+      "updated_at": "2026-05-12T14:57:26.358Z"
+    },
+    {
+      "id": "766d7e00-7fd5-4610-9767-017b90fabc87",
+      "numericId": 182,
+      "title": "Migrovat obsah prezentace k tinu godmode do PIMu studiáře",
+      "aspects": [
+        "Task"
+      ],
+      "attributes": {},
+      "tags": [
+        "📦aiexpert",
+        "📦studiář"
+      ],
+      "body": "",
+      "links": [
+        {
+          "to": "9a522f26-3795-4e3d-a04f-0b41cacf3ec8",
+          "type": "partOf",
+          "note": ""
+        }
+      ],
+      "attachments": [],
+      "comments": [],
+      "confidence": "definitive",
+      "inbox": false,
+      "archived": false,
+      "valid_from": null,
+      "valid_to": null,
+      "created_at": "2026-05-12T14:50:10.140Z",
+      "updated_at": "2026-05-12T14:53:16.295Z"
     }
   ],
   "tags": [
@@ -158,7 +471,9 @@
     "rozpracované",
     "znalosti",
     "aktuální",
-    "soubory"
+    "soubory",
+    "📦aiexpert",
+    "📦studiář"
   ],
   "savedViews": [],
   "customTemplates": [],
@@ -209,12 +524,39 @@
       "key": "slide",
       "label": "Slide",
       "fields": []
+    },
+    {
+      "key": "soubor",
+      "label": "Soubor",
+      "fields": [
+        {
+          "key": "popis",
+          "label": "Popis souboru",
+          "type": "text"
+        },
+        {
+          "key": "zdroj",
+          "label": "Zdroj souboru",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "key": "aplikace",
+      "label": "Aplikace",
+      "fields": [
+        {
+          "key": "url",
+          "label": "URL",
+          "type": "url"
+        }
+      ]
     }
   ],
   "ghMeta": {
     "path": "michalradacz/Public/lector.pim",
-    "sha": "ddee5da514cd29c588a16649f39f4d38a67e3d2d",
-    "lastSyncAt": "2026-05-12T14:29:00.195Z",
+    "sha": "ba55dbfa1ae11922858694a3fe6a8535f1bab7bd",
+    "lastSyncAt": "2026-05-12T14:47:07.154Z",
     "branch": "main"
   }
 }
