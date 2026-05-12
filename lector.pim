@@ -1,18 +1,18 @@
 {
   "schemaVersion": 2,
-  "title": "PIM – osobní znalostní báze",
+  "title": "Studiář",
   "description": "",
   "created_at": "2026-05-12T13:14:26.794Z",
-  "updated_at": "2026-05-12T13:16:24.985Z",
+  "updated_at": "2026-05-12T13:19:22.365Z",
   "entities": [],
   "tags": [],
   "savedViews": [],
   "customTemplates": [],
   "customAspects": [],
   "ghMeta": {
-    "path": null,
-    "sha": null,
-    "lastSyncAt": null,
+    "path": "michalradacz/Public/lector.pim",
+    "sha": "63d6c2a083f163b15e0f12c3ca06bcb734abcaf6",
+    "lastSyncAt": "2026-05-12T13:16:35.583Z",
     "branch": "main"
   }
 }
