@@ -7,7 +7,56 @@
     "visibleTypeTabs": [],
     "visibleAspectTabs": []
   },
-  "entityTypes": [],
+  "entityTypes": [
+    {
+      "id": "t_mp2mpxswq6j3qr",
+      "name": "Předmět",
+      "icon": "🔹",
+      "attributes": [
+        {
+          "id": "a_mp2mr583tka6u1",
+          "name": "Popis",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "t_mp2mtda2bgv8qb",
+      "name": "Téma",
+      "icon": "",
+      "attributes": [
+        {
+          "id": "a_mp2mu8kq529iou",
+          "name": "Popis",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "t_mp2n4w0of7b1zf",
+      "name": "Tematický okruh",
+      "icon": "",
+      "attributes": []
+    },
+    {
+      "id": "t_mp2n7ety4vr9p3",
+      "name": "Přednáška",
+      "icon": "",
+      "attributes": []
+    },
+    {
+      "id": "t_mp2nabr1lnik5q",
+      "name": "Prezentace",
+      "icon": "",
+      "attributes": []
+    },
+    {
+      "id": "t_mp2nbpjagkchih",
+      "name": "Cvičení",
+      "icon": "",
+      "attributes": []
+    }
+  ],
   "aspects": [],
   "relationTypes": [],
   "selectLists": [],
