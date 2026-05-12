@@ -3,7 +3,7 @@
   "title": "Studiář",
   "description": "",
   "created_at": "2026-05-12T13:14:26.794Z",
-  "updated_at": "2026-05-12T14:00:31.887Z",
+  "updated_at": "2026-05-12T14:17:17.668Z",
   "entities": [
     {
       "id": "1286776b-765c-43e0-b970-dd3c59e286ee",
@@ -15,7 +15,13 @@
       "attributes": {},
       "tags": [],
       "body": "",
-      "links": [],
+      "links": [
+        {
+          "to": "b7cbcb32-367f-4e84-acad-78c88b5d92ed",
+          "type": "dependsOn",
+          "note": ""
+        }
+      ],
       "attachments": [],
       "comments": [],
       "confidence": "definitive",
@@ -24,13 +30,62 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-12T13:56:54.179Z",
-      "updated_at": "2026-05-12T13:58:09.011Z"
+      "updated_at": "2026-05-12T14:12:17.692Z"
+    },
+    {
+      "id": "b7cbcb32-367f-4e84-acad-78c88b5d92ed",
+      "numericId": 2,
+      "title": "Dopsat obsah respektive anotaci předmétu AI expert",
+      "aspects": [
+        "Task"
+      ],
+      "attributes": {
+        "status": "todo",
+        "priority": "normal",
+        "energy": "light"
+      },
+      "tags": [],
+      "body": "",
+      "links": [],
+      "attachments": [],
+      "comments": [],
+      "confidence": "definitive",
+      "inbox": false,
+      "archived": false,
+      "valid_from": null,
+      "valid_to": null,
+      "created_at": "2026-05-12T14:12:17.692Z",
+      "updated_at": "2026-05-12T14:13:20.782Z"
+    },
+    {
+      "id": "e68823ea-b56a-4885-9984-4c7d9b003b51",
+      "numericId": 3,
+      "title": "Přednáška AI expert: TIN jako god mode pro AI",
+      "aspects": [
+        "prednaska"
+      ],
+      "attributes": {},
+      "tags": [
+        "rozpracované"
+      ],
+      "body": "",
+      "links": [],
+      "attachments": [],
+      "comments": [],
+      "confidence": "definitive",
+      "inbox": false,
+      "archived": false,
+      "valid_from": null,
+      "valid_to": null,
+      "created_at": "2026-05-12T14:14:20.319Z",
+      "updated_at": "2026-05-12T14:15:49.487Z"
     }
   ],
   "tags": [
     "důležité",
     "interní pro autora",
     "publikovat",
+    "rozpracované",
     "znalosti"
   ],
   "savedViews": [],
@@ -67,12 +122,17 @@
       "key": "cviceni",
       "label": "Cvičení",
       "fields": []
+    },
+    {
+      "key": "podklad",
+      "label": "Podklad",
+      "fields": []
     }
   ],
   "ghMeta": {
     "path": "michalradacz/Public/lector.pim",
-    "sha": "24b2f388d493e56b55d0bd609e7bda301e12ec49",
-    "lastSyncAt": "2026-05-12T13:48:08.088Z",
+    "sha": "95b7cf7d4ae9aeb8febc5b09ed42f65a83a5901d",
+    "lastSyncAt": "2026-05-12T14:05:41.217Z",
     "branch": "main"
   }
 }
