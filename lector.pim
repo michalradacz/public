@@ -3,7 +3,7 @@
   "title": "Studiář",
   "description": "",
   "created_at": "2026-05-12T13:14:26.794Z",
-  "updated_at": "2026-05-12T16:38:11.343Z",
+  "updated_at": "2026-05-12T16:58:24.956Z",
   "entities": [
     {
       "id": "1286776b-765c-43e0-b970-dd3c59e286ee",
@@ -12,7 +12,9 @@
       "aspects": [
         "predmet"
       ],
-      "attributes": {},
+      "attributes": {
+        "popis": "Obsahuje praktickou výuku speciálních postupů a dovedností pro skutečně praktické a pokročilé používání nástrojů umělé inteligence v každodením životě, práci i pro zlepšování schopností."
+      },
       "tags": [],
       "body": "",
       "links": [
@@ -30,7 +32,7 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-12T13:56:54.179Z",
-      "updated_at": "2026-05-12T14:12:17.692Z"
+      "updated_at": "2026-05-12T16:42:14.833Z"
     },
     {
       "id": "b7cbcb32-367f-4e84-acad-78c88b5d92ed",
@@ -44,7 +46,12 @@
         "priority": "normal",
         "energy": "light"
       },
-      "tags": [],
+      "tags": [
+        "📦aiexpert",
+        "aktuální",
+        "interní pro autora",
+        "rozpracované"
+      ],
       "body": "",
       "links": [
         {
@@ -60,7 +67,7 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-12T14:12:17.692Z",
-      "updated_at": "2026-05-12T16:38:11.343Z"
+      "updated_at": "2026-05-12T16:39:40.476Z"
     },
     {
       "id": "e68823ea-b56a-4885-9984-4c7d9b003b51",
@@ -477,6 +484,129 @@
       "valid_to": null,
       "created_at": "2026-05-12T14:50:10.140Z",
       "updated_at": "2026-05-12T14:53:16.295Z"
+    },
+    {
+      "id": "f1fffa46-585b-492c-87e0-dc8cbbd00069",
+      "numericId": 183,
+      "title": "GUI TUI SUI",
+      "aspects": [
+        "slide"
+      ],
+      "attributes": {},
+      "tags": [
+        "📦aiexpert",
+        "📦studiář",
+        "publikovat",
+        "znalosti"
+      ],
+      "body": "Umělou inteligenci jako takovou můžeme rozdělit podle toho, jak funguje - respektive z jakých dat je trénována a pro jaké typy úloh:\n- [Generalizovaná umělá inteligence](https://egdwiki.info/uilab:generalizovana-umela-inteligence) (GUI): UI trénovaná na velkém množství obecných dat\n- [Trénovaná umělá inteligence](https://egdwiki.info/uilab:trenovana-umela-inteligence) (TUI): UI jež je trénovaná na odborných datech pro jednu oblast nebo jeden typ výsledků\n- [Specializovaná umělá inteligence](https://egdwiki.info/uilab:specializovana-umela-inteligence) (SUI): UI jež je speciálně trénovaná na specifické a tedy neobecné úkoly a způsoby práce\n\n\n",
+      "links": [],
+      "attachments": [],
+      "comments": [],
+      "confidence": "definitive",
+      "inbox": false,
+      "archived": false,
+      "valid_from": null,
+      "valid_to": null,
+      "created_at": "2026-05-12T16:43:56.389Z",
+      "updated_at": "2026-05-12T16:45:10.255Z"
+    },
+    {
+      "id": "692b4233-5393-4de5-909e-3338c3268957",
+      "numericId": 184,
+      "title": "typy AI práce",
+      "aspects": [
+        "slide"
+      ],
+      "attributes": {},
+      "tags": [
+        "📦aiexpert",
+        "📦studiář",
+        "publikovat",
+        "znalosti"
+      ],
+      "body": "* Konverzace (s kontextem)\n* Vícevláknová konverzace\n* Svázaní agenti\n* Samostatní agenti",
+      "links": [],
+      "attachments": [],
+      "comments": [],
+      "confidence": "definitive",
+      "inbox": false,
+      "archived": false,
+      "valid_from": null,
+      "valid_to": null,
+      "created_at": "2026-05-12T16:46:10.889Z",
+      "updated_at": "2026-05-12T16:47:00.509Z"
+    },
+    {
+      "id": "26aeb53a-0b4b-4e5a-b276-77a48bc28ee8",
+      "numericId": 185,
+      "title": "Tři druhy promptů pro ovlivnění AI",
+      "aspects": [
+        "slide"
+      ],
+      "attributes": {},
+      "tags": [
+        "📦aiexpert",
+        "📦studiář",
+        "publikovat",
+        "znalosti"
+      ],
+      "body": "Existují tři druhy promptů, které ovlivní značně výsledek  práce AI\n\n* System prompt: hlavní zadání\n* Context/Instruction prompt: Kontext a chování pro úkol\n* Delivery prompt: Určení výstupu\n\n",
+      "links": [],
+      "attachments": [],
+      "comments": [],
+      "confidence": "definitive",
+      "inbox": false,
+      "archived": false,
+      "valid_from": null,
+      "valid_to": null,
+      "created_at": "2026-05-12T16:48:08.291Z",
+      "updated_at": "2026-05-12T16:49:42.580Z"
+    },
+    {
+      "id": "c6ef7fe9-8b09-49a7-a888-18d3d0a759c4",
+      "numericId": 186,
+      "title": "Co určuje TIN",
+      "aspects": [
+        "slide"
+      ],
+      "attributes": {},
+      "tags": [
+        "📦aiexpert",
+        "📦studiář",
+        "publikovat",
+        "znalosti"
+      ],
+      "body": "1. Co model dělat má (pokyny, pravidla)\n2. Co model dělat nemá (zákazy, oblasti mimo záběr)\n3. S jakými materiály má pracovat a jak má každý z nich chápat\n4.  Jak má vypadat výstup",
+      "links": [],
+      "attachments": [],
+      "comments": [],
+      "confidence": "definitive",
+      "inbox": false,
+      "archived": false,
+      "valid_from": null,
+      "valid_to": null,
+      "created_at": "2026-05-12T16:50:25.057Z",
+      "updated_at": "2026-05-12T16:51:04.458Z"
+    },
+    {
+      "id": "0c78f078-fa46-4791-989f-e1969f1d404d",
+      "numericId": 187,
+      "title": "Prezentace k přednášce AI expert TIN jako god mode pro AI",
+      "aspects": [],
+      "attributes": {},
+      "tags": [],
+      "body": "# AI expert: TIN jako AI god mode\n\n## AI práce a zdroje\n\n### GUI/TUI/SUI GAI/TAI/SAI\n\n\n\n{{include:GUI TUI SUI}}\n\n### Typy AI pracovníků\n\n{{include:typy AI práce}}\n\n### Kontext\n\nKontext je důležitý.\n\n* Široký kontext (obecné GAI)\n* Zúžený kontext s obecnými pravidly\n* Zúžený kontext se specifickými pravidly (instrukční kontext TAI)\n\n### Druhy promptů\n\n{{include:tři druhy promptů pro ovlivnění AI}}\n\n## Jdeme TINovat\n\n### Práce s textovým zadáním\n\nAby AI pochopila, využívá se [leximální dekompozice textu](https://www.uilab.cz/lexikalni-dekompozice-textu)\n\nDříve: Text >> Odstavec >> Věta >> Slovo >> Token\n\n\n\nNyní: Text >> Odstavec >> Věta >> >> Rozbor >> Kontext >> Souvislost\n\n### Co je co a kdy?\n\n* Kontext: množina informací\n* Význam: Množina souvislostí\n* Instrukce: Množina pravidel\n* Zdroje: Data a informace, podle kterých se pracuje\n* Vstup: zadání pro AI\n* Výstup: Výsledek práce AI (obsah i forma)\n\n### Instrukce je, když...\n\nSamotný kontext je jen text bez užitku\n\nInstrukce říká, jak se má pracovat s kontextem a jeho souvislostmi a {==jak do toho zapadá vstup úkolu==}\n\n\n❗️  Není to o výstupu, ale jak se k němu dostat\n\n### TIN\n\nTIN (Target Instruction Notation) je řídící supernadŕazená sada instrukcí a pravidel pro úkoly AI.\n\nJSON schéma, moderator pro prompty, TIN editor\n\n💡 TIN editor je český nástroj i pro neodborníky pro tvorbu pokročilých sad instrukcí\n\n### CO TIN dělá\n\nTIN je nadřazený kontextu, je na úrovni systémového promptu. Určuje:\n\n{{include:Co určuje TIN}}\n\n### Hlavní části TIN\n\n1. Context: celkový kontext a rámec\n2. Instructions: Sady instrukcí a pravidel\n3. Resources: Práce se zdroji a daty\n4. Output rules: Definice výstupu a jeho obsahu a formy\n\n### Scope: Obecný rámec\n\n* scope: Na co se TIN vztahuje.\n* assumptions: Co se předpokládá o uživateli, prostředí nebo vstupech.\n* out_of_scope: Co výslovně NENÍ pokryto.\n\n### Instrukce, sady, pravidla\n\n* Sections: Jednotlivé sekce se sadami instrukcí (důležité pro složitější zadání)* Instructions: Jednotlivé instrukce a jejich pravidla\n* Resource references: Odkazy a vazby na předložené zdroje pro jednotlivé instrukce\n* Pořadí a souvislosti\n\n### Druhy instrukcí\n\nTIN sám o sobě má jen tři druhy (to ale stačí)\n\n* DO: tohle musí dělat\n* DONT: tohle nesmí dělat\n* NOTE: aspektové rozšíŕení instrukce\n\nTypy pak mohou přidávat extensions, jako (ONLY IF, FORGET, REMEMBER, IGNORE)\n\n### Co nepsat v instrukcích\n\n* do DO nedávejte negativismy a do DONT příkazy\n* Pozor na stejná slova pro různé věci v DO a DONT\n* Vždy popište konkrétně (platí zejména pro DONT)\n* Využijte neutrální NOTE pro obecnéjší vysvětlení\n* Při odkazování na zdroje správné používejte ID zdroje\n* Nepleťte si s tím, jaký chcete výstup\n\n### Resources/files\n\nZdroje dat a znalostí se uvádí jako \n\n* připojený soubor (lokální URI)\n* Odkaz z internetu (externí URL)\n* Cesta k datům (path)\n* ...nebo jen specifikovaná část výše zmínéného\n\nNedoporučuje se jako zdroj dávat weby, čím podrobnější tím lepší. Doporučení je rovnou zahrnout lokálně soubory do balíčku (ZIP)\n\n### Práce se zdroji a obsahem\n\nU zdroje se uvádí:\n\n* ID a URI\n* Understand: Jak souboru rozumět — co to je a jakou má autoritu\n* Scope: popis relevantní části nebo částí\n* Use: Co vzít a jak ho použít (≍DO)\n* Ignore: Co v souboru ignorovat nebo přeskočit (≍DONT)\n\n### Definice výstupu\n\nVýstup (Output) určuje pravidla pro obsah i formu\n\n* Obsah věcně: Co to má a nemá mít\n* Obsah strukturálně: V jaké struktuře a proč\n* Forma: Jak chceme, aby výstup vypadal a fungoval\n* Formát: Technický formát (text, MD, JSON, CSV)\n* Jazyk: česky, anglicky, Klingonsky, CSS, PHP, Python, QML\n\n### TIN editor\n\n{{O nástroji TIN editor}}\n",
+      "links": [],
+      "attachments": [],
+      "comments": [],
+      "confidence": "definitive",
+      "inbox": false,
+      "archived": false,
+      "valid_from": null,
+      "valid_to": null,
+      "created_at": "2026-05-12T16:51:59.856Z",
+      "updated_at": "2026-05-12T16:57:49.178Z"
     }
   ],
   "tags": [
@@ -570,8 +700,8 @@
   ],
   "ghMeta": {
     "path": "michalradacz/Public/lector.pim",
-    "sha": "77aecaa4f10da2d34b46d547d0ec2c28a532e827",
-    "lastSyncAt": "2026-05-12T16:35:57.959Z",
+    "sha": "c98264415840c2110173666f7127875051ee064d",
+    "lastSyncAt": "2026-05-12T16:38:21.824Z",
     "branch": "main"
   }
 }
