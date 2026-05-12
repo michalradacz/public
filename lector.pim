@@ -3,16 +3,44 @@
   "title": "Studiář",
   "description": "",
   "created_at": "2026-05-12T13:14:26.794Z",
-  "updated_at": "2026-05-12T13:19:22.365Z",
+  "updated_at": "2026-05-12T13:48:02.597Z",
   "entities": [],
   "tags": [],
   "savedViews": [],
   "customTemplates": [],
-  "customAspects": [],
+  "customAspects": [
+    {
+      "key": "predmet",
+      "label": "Předmět",
+      "fields": [
+        {
+          "key": "popis",
+          "label": "Popis předmětu či okruhu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "key": "tema",
+      "label": "Téma",
+      "fields": []
+    },
+    {
+      "key": "prednaska",
+      "label": "Přednáška",
+      "fields": [
+        {
+          "key": "anotace",
+          "label": "Anotace",
+          "type": "text"
+        }
+      ]
+    }
+  ],
   "ghMeta": {
     "path": "michalradacz/Public/lector.pim",
-    "sha": "63d6c2a083f163b15e0f12c3ca06bcb734abcaf6",
-    "lastSyncAt": "2026-05-12T13:16:35.583Z",
+    "sha": "87e19b4ba55685ec6bbee5e41cdd01e5b7435ee9",
+    "lastSyncAt": "2026-05-12T13:42:45.900Z",
     "branch": "main"
   }
 }
