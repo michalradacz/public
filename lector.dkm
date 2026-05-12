@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "projectName": "Znalosti k předmětům ",
+  "projectDescription": "",
+  "ghPath": "Michalradacz/public/lector.dkm",
+  "settings": {
+    "visibleTypeTabs": [],
+    "visibleAspectTabs": []
+  },
+  "entityTypes": [],
+  "aspects": [],
+  "relationTypes": [],
+  "selectLists": [],
+  "entities": []
+}
