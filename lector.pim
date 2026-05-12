@@ -3,7 +3,7 @@
   "title": "Studiář",
   "description": "",
   "created_at": "2026-05-12T13:14:26.794Z",
-  "updated_at": "2026-05-12T17:22:56.738Z",
+  "updated_at": "2026-05-12T17:37:16.382Z",
   "entities": [
     {
       "id": "1286776b-765c-43e0-b970-dd3c59e286ee",
@@ -622,7 +622,18 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-12T16:51:59.856Z",
-      "updated_at": "2026-05-12T17:22:51.733Z"
+      "updated_at": "2026-05-12T17:37:16.382Z",
+      "annotations": [
+        {
+          "id": "ann-15e9a4ed-7d66-4cd4-be53-d09aedd15c43",
+          "content": "Tohle se bude hodit i do ostatních, proto je dobře, že je to include.",
+          "paragraphHash": "pdoeqpq",
+          "paragraphIndex": 2,
+          "originalText": "### GUI/TUI/SUI GAI/TAI/SAI",
+          "createdAt": "2026-05-12T17:37:16.382Z",
+          "updatedAt": "2026-05-12T17:37:16.382Z"
+        }
+      ]
     }
   ],
   "tags": [
@@ -716,8 +727,8 @@
   ],
   "ghMeta": {
     "path": "michalradacz/Public/lector.pim",
-    "sha": "3daa18d3990ecf01c4cc5e308d0408cf22200226",
-    "lastSyncAt": "2026-05-12T17:21:58.401Z",
+    "sha": "e100756fa26e98c6b2e6f5a49ada0631985ed211",
+    "lastSyncAt": "2026-05-12T17:35:15.212Z",
     "branch": "main"
   }
 }
