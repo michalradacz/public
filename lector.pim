@@ -3,7 +3,7 @@
   "title": "Studiář",
   "description": "",
   "created_at": "2026-05-12T13:14:26.794Z",
-  "updated_at": "2026-05-12T16:35:46.295Z",
+  "updated_at": "2026-05-12T16:38:11.343Z",
   "entities": [
     {
       "id": "1286776b-765c-43e0-b970-dd3c59e286ee",
@@ -46,7 +46,12 @@
       },
       "tags": [],
       "body": "",
-      "links": [],
+      "links": [
+        {
+          "to": "9a522f26-3795-4e3d-a04f-0b41cacf3ec8",
+          "type": "partOf"
+        }
+      ],
       "attachments": [],
       "comments": [],
       "confidence": "definitive",
@@ -55,7 +60,7 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-12T14:12:17.692Z",
-      "updated_at": "2026-05-12T14:13:20.782Z"
+      "updated_at": "2026-05-12T16:38:11.343Z"
     },
     {
       "id": "e68823ea-b56a-4885-9984-4c7d9b003b51",
@@ -179,7 +184,12 @@
         "📦studiář"
       ],
       "body": "",
-      "links": [],
+      "links": [
+        {
+          "to": "9a522f26-3795-4e3d-a04f-0b41cacf3ec8",
+          "type": "partOf"
+        }
+      ],
       "attachments": [],
       "comments": [],
       "confidence": "definitive",
@@ -188,7 +198,7 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-11T08:16:32.329Z",
-      "updated_at": "2026-05-12T14:57:26.358Z",
+      "updated_at": "2026-05-12T16:38:11.343Z",
       "numericId": 159
     },
     {
@@ -309,7 +319,12 @@
         "📦studiář"
       ],
       "body": "Výmluvy na AI\n\n> AI je děsivá. Právě vytvořila video mě na výletě v den, kdy jsem si v práci vzala nemocenskou.",
-      "links": [],
+      "links": [
+        {
+          "to": "9a522f26-3795-4e3d-a04f-0b41cacf3ec8",
+          "type": "partOf"
+        }
+      ],
       "attachments": [],
       "comments": [],
       "confidence": "definitive",
@@ -318,7 +333,7 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-12T12:28:38.133Z",
-      "updated_at": "2026-05-12T14:57:26.358Z"
+      "updated_at": "2026-05-12T16:38:11.343Z"
     },
     {
       "id": "ad8ad9ff-79e3-49e2-bad3-b82e650c4c1d",
@@ -555,8 +570,8 @@
   ],
   "ghMeta": {
     "path": "michalradacz/Public/lector.pim",
-    "sha": "ba55dbfa1ae11922858694a3fe6a8535f1bab7bd",
-    "lastSyncAt": "2026-05-12T14:47:07.154Z",
+    "sha": "77aecaa4f10da2d34b46d547d0ec2c28a532e827",
+    "lastSyncAt": "2026-05-12T16:35:57.959Z",
     "branch": "main"
   }
 }
