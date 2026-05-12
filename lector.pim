@@ -3,7 +3,7 @@
   "title": "Studiář",
   "description": "",
   "created_at": "2026-05-12T13:14:26.794Z",
-  "updated_at": "2026-05-12T17:21:03.283Z",
+  "updated_at": "2026-05-12T17:22:56.738Z",
   "entities": [
     {
       "id": "1286776b-765c-43e0-b970-dd3c59e286ee",
@@ -593,9 +593,17 @@
       "id": "0c78f078-fa46-4791-989f-e1969f1d404d",
       "numericId": 187,
       "title": "Prezentace k přednášce AI expert TIN jako god mode pro AI",
-      "aspects": [],
+      "aspects": [
+        "podklad",
+        "prezentace"
+      ],
       "attributes": {},
-      "tags": [],
+      "tags": [
+        "📦aiexpert",
+        "📦studiář",
+        "naše práce",
+        "publikovat"
+      ],
       "body": "# AI expert: TIN jako AI god mode\n\n## AI práce a zdroje\n\n### GUI/TUI/SUI GAI/TAI/SAI\n\n\n\n{{include:GUI TUI SUI}}\n\n### Typy AI pracovníků\n\n{{include:typy AI práce}}\n\n### Kontext\n\nKontext je důležitý.\n\n* Široký kontext (obecné GAI)\n* Zúžený kontext s obecnými pravidly\n* Zúžený kontext se specifickými pravidly (instrukční kontext TAI)\n\n### Druhy promptů\n\n{{include:tři druhy promptů pro ovlivnění AI}}\n\n## Jdeme TINovat\n\n### Práce s textovým zadáním\n\nAby AI pochopila, využívá se [leximální dekompozice textu](https://www.uilab.cz/lexikalni-dekompozice-textu)\n\nDříve: Text >> Odstavec >> Věta >> Slovo >> Token\n\n\n\nNyní: Text >> Odstavec >> Věta >> >> Rozbor >> Kontext >> Souvislost\n\n### Co je co a kdy?\n\n* Kontext: množina informací\n* Význam: Množina souvislostí\n* Instrukce: Množina pravidel\n* Zdroje: Data a informace, podle kterých se pracuje\n* Vstup: zadání pro AI\n* Výstup: Výsledek práce AI (obsah i forma)\n\n### Instrukce je, když...\n\nSamotný kontext je jen text bez užitku\n\nInstrukce říká, jak se má pracovat s kontextem a jeho souvislostmi a {==jak do toho zapadá vstup úkolu==}\n\n\n❗️  Není to o výstupu, ale jak se k němu dostat\n\n### TIN\n\nTIN (Target Instruction Notation) je řídící supernadŕazená sada instrukcí a pravidel pro úkoly AI.\n\nJSON schéma, moderator pro prompty, TIN editor\n\n💡 TIN editor je český nástroj i pro neodborníky pro tvorbu pokročilých sad instrukcí\n\n### CO TIN dělá\n\nTIN je nadřazený kontextu, je na úrovni systémového promptu. Určuje:\n\n{{include:Co určuje TIN}}\n\n### Hlavní části TIN\n\n1. Context: celkový kontext a rámec\n2. Instructions: Sady instrukcí a pravidel\n3. Resources: Práce se zdroji a daty\n4. Output rules: Definice výstupu a jeho obsahu a formy\n\n### Scope: Obecný rámec\n\n* scope: Na co se TIN vztahuje.\n* assumptions: Co se předpokládá o uživateli, prostředí nebo vstupech.\n* out_of_scope: Co výslovně NENÍ pokryto.\n\n### Instrukce, sady, pravidla\n\n* Sections: Jednotlivé sekce se sadami instrukcí (důležité pro složitější zadání)* Instructions: Jednotlivé instrukce a jejich pravidla\n* Resource references: Odkazy a vazby na předložené zdroje pro jednotlivé instrukce\n* Pořadí a souvislosti\n\n### Druhy instrukcí\n\nTIN sám o sobě má jen tři druhy (to ale stačí)\n\n* DO: tohle musí dělat\n* DONT: tohle nesmí dělat\n* NOTE: aspektové rozšíŕení instrukce\n\nTypy pak mohou přidávat extensions, jako (ONLY IF, FORGET, REMEMBER, IGNORE)\n\n### Co nepsat v instrukcích\n\n* do DO nedávejte negativismy a do DONT příkazy\n* Pozor na stejná slova pro různé věci v DO a DONT\n* Vždy popište konkrétně (platí zejména pro DONT)\n* Využijte neutrální NOTE pro obecnéjší vysvětlení\n* Při odkazování na zdroje správné používejte ID zdroje\n* Nepleťte si s tím, jaký chcete výstup\n\n### Resources/files\n\nZdroje dat a znalostí se uvádí jako \n\n* připojený soubor (lokální URI)\n* Odkaz z internetu (externí URL)\n* Cesta k datům (path)\n* ...nebo jen specifikovaná část výše zmínéného\n\nNedoporučuje se jako zdroj dávat weby, čím podrobnější tím lepší. Doporučení je rovnou zahrnout lokálně soubory do balíčku (ZIP)\n\n### Práce se zdroji a obsahem\n\nU zdroje se uvádí:\n\n* ID a URI\n* Understand: Jak souboru rozumět — co to je a jakou má autoritu\n* Scope: popis relevantní části nebo částí\n* Use: Co vzít a jak ho použít (≍DO)\n* Ignore: Co v souboru ignorovat nebo přeskočit (≍DONT)\n\n### Definice výstupu\n\nVýstup (Output) určuje pravidla pro obsah i formu\n\n* Obsah věcně: Co to má a nemá mít\n* Obsah strukturálně: V jaké struktuře a proč\n* Forma: Jak chceme, aby výstup vypadal a fungoval\n* Formát: Technický formát (text, MD, JSON, CSV)\n* Jazyk: česky, anglicky, Klingonsky, CSS, PHP, Python, QML\n\n### TIN editor\n\n{{O nástroji TIN editor}}\n",
       "links": [],
       "attachments": [],
@@ -614,7 +622,7 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-12T16:51:59.856Z",
-      "updated_at": "2026-05-12T17:21:02.983Z"
+      "updated_at": "2026-05-12T17:22:51.733Z"
     }
   ],
   "tags": [
@@ -708,8 +716,8 @@
   ],
   "ghMeta": {
     "path": "michalradacz/Public/lector.pim",
-    "sha": "64d6f1bab4bf447468ece7d81b06fab49a0ff70b",
-    "lastSyncAt": "2026-05-12T16:58:29.630Z",
+    "sha": "3daa18d3990ecf01c4cc5e308d0408cf22200226",
+    "lastSyncAt": "2026-05-12T17:21:58.401Z",
     "branch": "main"
   }
 }
