@@ -3,7 +3,7 @@
   "title": "Studiář",
   "description": "",
   "created_at": "2026-05-12T13:14:26.794Z",
-  "updated_at": "2026-05-12T14:27:07.820Z",
+  "updated_at": "2026-05-12T14:47:01.792Z",
   "entities": [
     {
       "id": "1286776b-765c-43e0-b970-dd3c59e286ee",
@@ -199,12 +199,22 @@
       "key": "podklad",
       "label": "Podklad",
       "fields": []
+    },
+    {
+      "key": "prezentace",
+      "label": "Prezentace",
+      "fields": []
+    },
+    {
+      "key": "slide",
+      "label": "Slide",
+      "fields": []
     }
   ],
   "ghMeta": {
     "path": "michalradacz/Public/lector.pim",
-    "sha": "01993a7cde8998f6c013c284f88665a0b6344965",
-    "lastSyncAt": "2026-05-12T14:17:54.146Z",
+    "sha": "ddee5da514cd29c588a16649f39f4d38a67e3d2d",
+    "lastSyncAt": "2026-05-12T14:29:00.195Z",
     "branch": "main"
   }
 }
