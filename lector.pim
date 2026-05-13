@@ -3,7 +3,7 @@
   "title": "Studiář",
   "description": "",
   "created_at": "2026-05-12T13:14:26.794Z",
-  "updated_at": "2026-05-12T17:37:16.382Z",
+  "updated_at": "2026-05-13T14:15:31.152Z",
   "entities": [
     {
       "id": "1286776b-765c-43e0-b970-dd3c59e286ee",
@@ -634,6 +634,32 @@
           "updatedAt": "2026-05-12T17:37:16.382Z"
         }
       ]
+    },
+    {
+      "id": "7b05be22-8d9b-4b3e-8611-66d483162231",
+      "numericId": 188,
+      "title": "GHC ve VScode",
+      "aspects": [
+        "slide"
+      ],
+      "attributes": {},
+      "tags": [
+        "📦aiexpert",
+        "📦studiář",
+        "publikovat"
+      ],
+      "body": "V rámci VSCode se GitHub Copilot využívá\n\n* rovnou při psaní (našeptávač)\n* Kontextovým menu (Chat, vysvětlení, opravy, dokumentace, agenti)\n* v samostatném okně chatu s kontextem otevřeného souboru\n* V okně chatu či jako realtime agent v kontextu otevřeného repository\n\n\n⚠️ Pro pořádnou práci vyžaduje aktuální soubor v repo na GitHubu",
+      "links": [],
+      "attachments": [],
+      "comments": [],
+      "annotations": [],
+      "confidence": "definitive",
+      "inbox": false,
+      "archived": false,
+      "valid_from": null,
+      "valid_to": null,
+      "created_at": "2026-05-13T14:14:22.173Z",
+      "updated_at": "2026-05-13T14:15:16.503Z"
     }
   ],
   "tags": [
@@ -727,8 +753,8 @@
   ],
   "ghMeta": {
     "path": "michalradacz/Public/lector.pim",
-    "sha": "e100756fa26e98c6b2e6f5a49ada0631985ed211",
-    "lastSyncAt": "2026-05-12T17:35:15.212Z",
+    "sha": "288ac609655b6421b0e6d20a78ba26844f42bd84",
+    "lastSyncAt": "2026-05-13T14:14:07.121Z",
     "branch": "main"
   }
 }
