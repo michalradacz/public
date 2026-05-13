@@ -3,7 +3,7 @@
   "title": "Studiář",
   "description": "",
   "created_at": "2026-05-12T13:14:26.794Z",
-  "updated_at": "2026-05-13T14:15:31.152Z",
+  "updated_at": "2026-05-13T14:35:39.088Z",
   "entities": [
     {
       "id": "1286776b-765c-43e0-b970-dd3c59e286ee",
@@ -660,6 +660,110 @@
       "valid_to": null,
       "created_at": "2026-05-13T14:14:22.173Z",
       "updated_at": "2026-05-13T14:15:16.503Z"
+    },
+    {
+      "id": "7dbf1b7d-7239-44fd-bcdb-e3c98368db25",
+      "numericId": 189,
+      "title": "GHC ve VSCode",
+      "aspects": [
+        "slide"
+      ],
+      "attributes": {},
+      "tags": [
+        "📦aiexpert",
+        "📦studiář",
+        "publikovat"
+      ],
+      "body": "V rámci VSCode se GitHub Copilot využívá\n\n* rovnou při psaní (našeptávač)\n* Kontextovým menu (Chat, vysvětlení, opravy, dokumentace, agenti)\n* v samostatném okně chatu s kontextem otevřeného souboru\n* V okně chatu či jako realtime agent v kontextu otevřeného repository\n\n\n⚠️ Pro pořádnou práci vyžaduje aktuální soubor v repo na GitHubu",
+      "links": [],
+      "attachments": [],
+      "comments": [],
+      "annotations": [],
+      "confidence": "definitive",
+      "inbox": false,
+      "archived": false,
+      "valid_from": null,
+      "valid_to": null,
+      "created_at": "2026-05-13T14:29:07.674Z",
+      "updated_at": "2026-05-13T14:30:32.362Z"
+    },
+    {
+      "id": "d609505b-9387-49a4-b739-cdc6106e28f9",
+      "numericId": 190,
+      "title": "Claude.ai pro programování",
+      "aspects": [
+        "slide"
+      ],
+      "attributes": {},
+      "tags": [
+        "📦aiexpert",
+        "📦studiář",
+        "publikovat"
+      ],
+      "body": "* Přes claude.ai přímo zadávat úkoly, vystup přes artefacts\n* Na webu napojení Claude code na github repo\n* Pseudo repo přímo přes Claude Code\n* Integrace do některých IDE přes claude.ai účet",
+      "links": [],
+      "attachments": [],
+      "comments": [],
+      "annotations": [],
+      "confidence": "definitive",
+      "inbox": false,
+      "archived": false,
+      "valid_from": null,
+      "valid_to": null,
+      "created_at": "2026-05-13T14:31:43.641Z",
+      "updated_at": "2026-05-13T14:32:30.252Z"
+    },
+    {
+      "id": "371834fd-1178-41ff-a5f9-1414c37a88b3",
+      "numericId": 191,
+      "title": "Formy používání GitHub Copilota",
+      "aspects": [
+        "slide"
+      ],
+      "attributes": {},
+      "tags": [
+        "📦aiexpert",
+        "📦studiář",
+        "publikovat"
+      ],
+      "body": "GitHub Copilot se nad kódem a zdroji dá využít těmito způsob:\n\n\n* V rámci VSCode (nejjednodušší pro práci nad obsahem v reálném čase, nezávislé na repo)\n* Copilot agent v repository na GitHub.com (umí běžet i samostatně)\n* Copilot agents a sessions přes CLI nebo API (vyžaduje rozhraní a trpělivost)",
+      "links": [],
+      "attachments": [],
+      "comments": [],
+      "annotations": [],
+      "confidence": "definitive",
+      "inbox": false,
+      "archived": false,
+      "valid_from": null,
+      "valid_to": null,
+      "created_at": "2026-05-13T14:33:58.665Z",
+      "updated_at": "2026-05-13T14:34:34.023Z"
+    },
+    {
+      "id": "33866e62-f3ac-465f-9545-444d7f6f3c0e",
+      "numericId": 192,
+      "title": "Co je to GitHub Copilot",
+      "aspects": [
+        "slide"
+      ],
+      "attributes": {},
+      "tags": [
+        "📦aiexpert",
+        "📦studiář",
+        "publikovat"
+      ],
+      "body": "[GitHub Copilot](https://copilot.github.com) je AI v rámci GitHub nástroje, umožňuje toho teoreticky ale i víc\n\nUmí pomáhat s kódem, upravovat ho, testovat, posuzovat, chatovat a nově i samostatně pracovat v rámci GITu\n\nDvojí formy licence: V rámci licencí github.com či enterprise, a v rámci licencí M365\n\nVýhodou je více modelů a multimodeloví agenti\n\nNaprosto super je v rámci VSCode a IntelliJ jako rozšíření\n\nVíc třeba v [What is Google Copilot](https://docs.github.com/en/copilot/get-started/what-is-github-copilot)",
+      "links": [],
+      "attachments": [],
+      "comments": [],
+      "annotations": [],
+      "confidence": "definitive",
+      "inbox": false,
+      "archived": false,
+      "valid_from": null,
+      "valid_to": null,
+      "created_at": "2026-05-13T14:35:12.444Z",
+      "updated_at": "2026-05-13T14:35:37.951Z"
     }
   ],
   "tags": [
@@ -753,8 +857,8 @@
   ],
   "ghMeta": {
     "path": "michalradacz/Public/lector.pim",
-    "sha": "288ac609655b6421b0e6d20a78ba26844f42bd84",
-    "lastSyncAt": "2026-05-13T14:14:07.121Z",
+    "sha": "5636c0b4d378f08ebb588eb2a3c84b4ec02a2c37",
+    "lastSyncAt": "2026-05-13T14:25:37.882Z",
     "branch": "main"
   }
 }
