@@ -3,7 +3,7 @@
   "title": "Studiář",
   "description": "",
   "created_at": "2026-05-12T13:14:26.794Z",
-  "updated_at": "2026-05-13T16:31:12.546Z",
+  "updated_at": "2026-05-13T16:39:13.619Z",
   "entities": [
     {
       "id": "1286776b-765c-43e0-b970-dd3c59e286ee",
@@ -873,8 +873,8 @@
   ],
   "ghMeta": {
     "path": "michalradacz/Public/lector.pim",
-    "sha": "bcdb6b6fea418846069e279455172b110bc00deb",
-    "lastSyncAt": "2026-05-13T16:31:12.545Z",
+    "sha": "63283ac95600bbfd39c71f93fe6d58d69949c75f",
+    "lastSyncAt": "2026-05-13T16:39:13.619Z",
     "branch": "main"
   }
 }
