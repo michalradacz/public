@@ -3,7 +3,7 @@
   "title": "Studiář",
   "description": "",
   "created_at": "2026-05-12T13:14:26.794Z",
-  "updated_at": "2026-05-14T17:02:25.675Z",
+  "updated_at": "2026-05-18T18:17:04.415Z",
   "entities": [
     {
       "id": "1286776b-765c-43e0-b970-dd3c59e286ee",
@@ -67,20 +67,32 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-12T14:12:17.692Z",
-      "updated_at": "2026-05-12T16:39:40.476Z"
+      "updated_at": "2026-05-18T18:17:04.103Z"
     },
     {
       "id": "e68823ea-b56a-4885-9984-4c7d9b003b51",
       "numericId": 3,
       "title": "Přednáška AI expert: TIN jako god mode pro AI",
       "aspects": [
+        "Reference",
+        "Bookmark",
         "prednaska"
       ],
-      "attributes": {},
+      "attributes": {
+        "author": "Michal Rada",
+        "year": 2026,
+        "url": "https://youtu.be/OKzIy_K5YRY",
+        "kind": "video",
+        "anotace": "Představení nového standardu a schématu TIN (Target Instruction notation) a podrobné vysvětlení"
+      },
       "tags": [
-        "rozpracované"
+        "📦aiexpert",
+        "📦studiář",
+        "hotovo",
+        "publikovat",
+        "znalosti ai"
       ],
-      "body": "",
+      "body": "[Přednáška AI expert: TIN jako god mode pro AI](https://youtu.be/OKzIy_K5YRY)\n\nSpojení dvou částí - Představení TIN (Target Instruction Notation) schématu a podrobný popis, co to je, co to dělá, jak se to má použít a jak se s tím má pracovat. ",
       "links": [],
       "attachments": [],
       "comments": [],
@@ -90,7 +102,7 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-12T14:14:20.319Z",
-      "updated_at": "2026-05-12T14:15:49.487Z"
+      "updated_at": "2026-05-18T18:17:04.103Z"
     },
     {
       "id": "53f8da7f-4441-42d8-bb8e-3f4b25e2c814",
@@ -139,27 +151,30 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-11T09:26:01.225Z",
-      "updated_at": "2026-05-12T16:35:45.989Z",
+      "updated_at": "2026-05-18T18:17:04.102Z",
       "numericId": 163
     },
     {
       "id": "9bbe427c-8ab0-4ffc-9d1c-2edd32a039fa",
       "numericId": 25,
-      "title": "Prezentace AI expert učení AI",
+      "title": "Prezentace AI expert: Vychovávání AI",
       "aspects": [
-        "Task",
-        "Idea"
+        "prezentace"
       ],
       "attributes": {
-        "status": "in_progress",
-        "energy": "deep"
+        "status": "done",
+        "energy": "deep",
+        "estimate": 60,
+        "done_at": "2026-05-18T18:06:16.410Z"
       },
       "tags": [
         "📦aiexpert",
         "📦studiář",
-        "aktuální"
+        "hotovo",
+        "publikovat",
+        "znalosti ai"
       ],
-      "body": "Co do takové přednášky\n\n- [ ] Teorie pravděpodobnosti\n- [ ] Popsat jak fungují palce při učení AI\n- [ ] Opravy a zlepšování\n- [ ] Různé formy hodnocení AI (palce, opravy textem, přidávání kontextu)\n",
+      "body": "# Prezentace AI expert: Vychovávání AI\n\n\n\n## Proč AI tak strašně  kecá\n\n\n### Protože je to nevychovanej fracek\n\nAI je jako nevychované dítě s vlastní hlavou, vlastní pravdou - a co si o tom myslíte Vy, je jí úplně...\n\nJe: neotesaná, nelogická, neslušná, nepraktická, nesoudná, zaujatá, schizofrenická, nepřizpůsobivá, neetická, nelidská, lživá, fašistická, psychotická, netransparentní, lhostejná, asociální, přemoudřelá\n\n\n### Co je pro AI důležité\n\n\n{{include:slide Co je pro AI důležité při výsledku}}\n\n### Jak AI vnímá úspěch\n\n\n{{include:slide Jak AI vnímá úspěch}}\n\n### Nejde o pravdu, ale o výstup\n\n* Pro nevychovanou AI je pravda vlastně vedlejší\n* Důležitý je soulad výstupu se vstupem a obecným kontextem\n* Vymýšlení si není chyba, ale forma rozšíření výstupu\n* AI si zdroje ověřuje, ale ne do hloubky a neřeší negace jinými zdroji\n\n<details><summary>Příklad zmatené odpovědi</summary>\n\n{{include:AI příklady: Bohuslav Sobotka}}\n\n</details>\n\n### Několik druhů nepravdy\n\nCo je to pravda? To v rámci AI není tak úplně jednoduché.\n\n* ☑️Pokud si někde něco přečetla, byť je to jinde popřeno, je to pravda\n* ☑️Pokud něco tvrdí a {==uživatel neřekl explicitně, že takhle ne==}, je to pravda.\n* ❌Nepravda je často jen dočasná\n* ❌Když je to nepravda, tak to nepoužije, pokud se to ale nehodí...\n\n\n### Neetická fašistická nelidská AI\n\nJde čistě o matematiku, pravděpodobnost a absolutní pravdu\n\n<details><summary>Asi ty nejhorší příklady</summary>\n{{include:AI příklady: Hitler a plány}}\n\n{{include:AI příklady: manželství}}\n\n</details>\n\n### Ale pozor, ne všechno není pravda\n\nVelké haló kolem fotek černošských nacistů v uniformách SS\n\n...jenomže oni fakt existovali\n\nVelké protesty proti hromadnému neschvalování podmínečného propuštění u afroameričanů\n\n...jenže oni opravdu statisticky páchali recidivu častěji, než běloši\n\n\n## Co s tím můžeme dělat? Vychovat si jí!\n\n### Co je to raising\n\nRaising ve smyslu vychovávat nevychované děti\n\nNeotesaná AI je **ill-mannered**\n\n> AI je schizofrenický autistický psychopat\n\nProto je nutné ji vychovávat, tedy zavést tři věci:\n\nEtiku, Schopnosti, Soudnost\n\n\n### Kdo a jak může vychovávat\n\n1. Tvůrci modelu doplňují základní aspekty etiky a souvislostí znalostí na schopnosti spojovat a zahazovat\n2. System prompt a instrukce dodávají vrstvu výchovy nad korpusem znalostí a kontextem\n3. Uživatel má některé možnosti významné výchovy vůči němu konkrétně\n\n### Jak na tu etiku a morálku\n\nNa to dnes čas nemáme, jsou na to ale specializované postupy a matematicko-algoritmické metody, které se o to snaží\n\n...výsledky jsou mnohdy spíš kontraproduktivní\n\n<details><summary>Úsměrný, ale nesmyslný příklad</summary>\n\n❔ Zadání vtipného komixu, kterak si slepec osahává kaktus\n\n🤖 AI to odmítne, že je to proti nevidomým a je to neetické. Ale místo toho nechá slepce rozdupat dykobrazem, to je totiž v pohodě\n\n\n</details>\n\n### Palce - nejdůležitější forma hodnocení uživatelem\n\n{{include:slide Hodnocení palce u AI}}\n\n\n### Když vás vyzve, popište co je špatně\n\nNejen samotné hodnocení, ale i výzva k podrobnějším informacím **co bylo špatně** je důležitá.\n\nOpět platí, že většinou se zpracuje automatizovaně, ale pokud to povolujete, může se hodnocení s konverzací dostat až k člověku.\n\n### ...a co se s tím stane\n\nUživatelská hodnocení jsou cca polovinou váhy dobrého a špatného výsledku. Pokud se hodnotí i podrobnější popis, může z toho vzniknout obecné pravidlo \"takhle ne\"\n\nExistují dvě základní pravidla pro modely AI a to **DO** a **DONT**\n\n### Vychovávejte v konverzaci\n\nI v konverzaci je dobré zejména\n\n* psát správně zadání, upřesňovat příklady a klázt zákazy\n* Pokud je něco špatně, popište co a proč a požadujte opravu (nehledě na hodnocení)\n* Pokud je něco natolik správně, požadujte, aby si to AI zapamatovala\n\n\n\n### Z čeho AI čerpá pravdy\n\n* Na úrovni modelu: složitá pravidla a vyvažování důležitosti informací\n* Na úrovni uživatele: memory a jeho systémové zadání\n* Na úrovni konverzace: Podklady a požadavky na opravu\n\n\n### Jak se to dělá pořádně\n\nKromě uživatelské výchovy a trénování se používají\n\n* Systémové prompty a modelové mantinely\n* Instrukční sady a rámce pro jednotlivé agenty a úkoly\n\n",
       "links": [
         {
           "to": "9a522f26-3795-4e3d-a04f-0b41cacf3ec8",
@@ -174,7 +189,8 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-12T09:24:28.275Z",
-      "updated_at": "2026-05-12T16:35:45.989Z"
+      "updated_at": "2026-05-18T18:17:04.103Z",
+      "useAdvancedEditor": true
     },
     {
       "id": "d42657ea-d0da-4b90-b22a-16e331e51da9",
@@ -205,7 +221,7 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-11T08:16:32.329Z",
-      "updated_at": "2026-05-12T16:38:11.343Z",
+      "updated_at": "2026-05-18T18:17:04.102Z",
       "numericId": 159
     },
     {
@@ -234,7 +250,7 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-11T08:18:30.014Z",
-      "updated_at": "2026-05-12T14:57:26.358Z",
+      "updated_at": "2026-05-18T18:17:04.102Z",
       "numericId": 160
     },
     {
@@ -269,7 +285,7 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-11T08:23:51.098Z",
-      "updated_at": "2026-05-12T14:57:26.358Z",
+      "updated_at": "2026-05-18T18:17:04.102Z",
       "numericId": 161
     },
     {
@@ -310,7 +326,7 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-11T08:43:16.897Z",
-      "updated_at": "2026-05-12T14:57:26.358Z",
+      "updated_at": "2026-05-18T18:17:04.102Z",
       "numericId": 162
     },
     {
@@ -345,7 +361,7 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-12T12:28:38.133Z",
-      "updated_at": "2026-05-14T16:58:09.574Z"
+      "updated_at": "2026-05-18T18:17:04.103Z"
     },
     {
       "id": "ad8ad9ff-79e3-49e2-bad3-b82e650c4c1d",
@@ -375,7 +391,7 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-12T12:30:14.659Z",
-      "updated_at": "2026-05-14T16:58:31.821Z"
+      "updated_at": "2026-05-18T18:17:04.103Z"
     },
     {
       "id": "7e6d84ce-586e-4168-a97f-a26b71f0f857",
@@ -405,7 +421,7 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-12T12:30:52.639Z",
-      "updated_at": "2026-05-14T16:58:58.771Z"
+      "updated_at": "2026-05-18T18:17:04.103Z"
     },
     {
       "id": "9a522f26-3795-4e3d-a04f-0b41cacf3ec8",
@@ -431,7 +447,7 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-12T14:40:19.377Z",
-      "updated_at": "2026-05-12T14:57:26.358Z"
+      "updated_at": "2026-05-18T18:17:04.103Z"
     },
     {
       "id": "eadf4c52-075f-4510-9b9f-44f17bbe9d75",
@@ -470,7 +486,7 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-12T14:48:29.354Z",
-      "updated_at": "2026-05-13T14:37:12.989Z"
+      "updated_at": "2026-05-18T18:17:04.103Z"
     },
     {
       "id": "766d7e00-7fd5-4610-9767-017b90fabc87",
@@ -502,7 +518,7 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-12T14:50:10.140Z",
-      "updated_at": "2026-05-14T16:53:22.273Z"
+      "updated_at": "2026-05-18T18:17:04.103Z"
     },
     {
       "id": "f1fffa46-585b-492c-87e0-dc8cbbd00069",
@@ -528,7 +544,7 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-12T16:43:56.389Z",
-      "updated_at": "2026-05-12T16:45:10.255Z"
+      "updated_at": "2026-05-18T18:17:04.103Z"
     },
     {
       "id": "692b4233-5393-4de5-909e-3338c3268957",
@@ -554,7 +570,7 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-12T16:46:10.889Z",
-      "updated_at": "2026-05-12T16:47:00.509Z"
+      "updated_at": "2026-05-18T18:17:04.103Z"
     },
     {
       "id": "26aeb53a-0b4b-4e5a-b276-77a48bc28ee8",
@@ -580,7 +596,7 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-12T16:48:08.291Z",
-      "updated_at": "2026-05-12T16:49:42.580Z"
+      "updated_at": "2026-05-18T18:17:04.103Z"
     },
     {
       "id": "c6ef7fe9-8b09-49a7-a888-18d3d0a759c4",
@@ -606,7 +622,7 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-12T16:50:25.057Z",
-      "updated_at": "2026-05-12T16:51:04.458Z"
+      "updated_at": "2026-05-18T18:17:04.103Z"
     },
     {
       "id": "0c78f078-fa46-4791-989f-e1969f1d404d",
@@ -641,7 +657,7 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-12T16:51:59.856Z",
-      "updated_at": "2026-05-13T16:31:04.126Z",
+      "updated_at": "2026-05-18T18:17:04.103Z",
       "annotations": []
     },
     {
@@ -668,7 +684,7 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-13T14:29:07.674Z",
-      "updated_at": "2026-05-13T14:30:32.362Z"
+      "updated_at": "2026-05-18T18:17:04.103Z"
     },
     {
       "id": "d609505b-9387-49a4-b739-cdc6106e28f9",
@@ -694,7 +710,7 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-13T14:31:43.641Z",
-      "updated_at": "2026-05-13T14:32:30.252Z"
+      "updated_at": "2026-05-18T18:17:04.103Z"
     },
     {
       "id": "371834fd-1178-41ff-a5f9-1414c37a88b3",
@@ -720,7 +736,7 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-13T14:33:58.665Z",
-      "updated_at": "2026-05-13T14:34:34.023Z"
+      "updated_at": "2026-05-18T18:17:04.103Z"
     },
     {
       "id": "33866e62-f3ac-465f-9545-444d7f6f3c0e",
@@ -747,7 +763,7 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-13T14:35:12.444Z",
-      "updated_at": "2026-05-14T16:52:06.171Z"
+      "updated_at": "2026-05-18T18:17:04.103Z"
     },
     {
       "id": "7f4f076a-591e-4596-8cae-28ec0e17f45b",
@@ -773,7 +789,7 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-13T14:36:09.492Z",
-      "updated_at": "2026-05-13T14:36:32.633Z"
+      "updated_at": "2026-05-18T18:17:04.103Z"
     },
     {
       "id": "437747c0-b55f-4d71-b057-896aef7836f8",
@@ -802,7 +818,7 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-14T16:54:10.775Z",
-      "updated_at": "2026-05-14T17:01:50.597Z"
+      "updated_at": "2026-05-18T18:17:04.103Z"
     },
     {
       "id": "171d788e-db12-4fc6-a0bd-571cd686ee65",
@@ -835,7 +851,347 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-14T17:00:14.942Z",
-      "updated_at": "2026-05-14T17:02:15.584Z"
+      "updated_at": "2026-05-18T18:17:04.103Z"
+    },
+    {
+      "id": "d0256648-77b8-4410-94ff-2ba37c756832",
+      "numericId": 188,
+      "title": "website.md pro aiexpert.site44.com",
+      "aspects": [
+        "zpracovat",
+        "soubor"
+      ],
+      "attributes": {
+        "pokyny": "- [ ] Struktura webu\n- [ ] [[Rozmyslet si co chci na web aiexpert.site44.com psát o předmětu]]\n- [ ] Dopsat homepage\n- [ ] Samostatně udělat sidebar.md v adresáři webu na dropboxu\n- [ ] [[Někde si udělat seznam přednášek jak mají jít za sebou]]"
+      },
+      "tags": [
+        "📦aiexpert",
+        "aktuální",
+        "doplnit",
+        "rozpracované"
+      ],
+      "body": "# Homepage\n\n# ✏️Informace\n\nmultisection\n\n\n## ✏️O předmětu\n\n## ✏️Cíle a obsahové zaměření\n\n## ✏️Průběh předmětu\n\n\n# ✏️Přednášky\n\n# ✏️Materiály\n\n",
+      "links": [
+        {
+          "to": "9a522f26-3795-4e3d-a04f-0b41cacf3ec8",
+          "type": "partOf",
+          "note": ""
+        }
+      ],
+      "attachments": [],
+      "comments": [],
+      "annotations": [],
+      "confidence": "definitive",
+      "inbox": false,
+      "archived": false,
+      "valid_from": null,
+      "valid_to": null,
+      "created_at": "2026-05-12T18:33:14.019Z",
+      "updated_at": "2026-05-12T19:00:21.300Z"
+    },
+    {
+      "id": "1b1c0140-c8c6-4a3f-82b5-64e5deaba4ef",
+      "numericId": 200,
+      "title": "Rozmyslet si co chci na web aiexpert.site44.com psát o předmětu",
+      "aspects": [
+        "Task"
+      ],
+      "attributes": {
+        "status": "todo"
+      },
+      "tags": [
+        "📦aiexpert"
+      ],
+      "body": "",
+      "links": [
+        {
+          "to": "d0256648-77b8-4410-94ff-2ba37c756832",
+          "type": "partOf"
+        },
+        {
+          "to": "9a522f26-3795-4e3d-a04f-0b41cacf3ec8",
+          "type": "partOf",
+          "note": ""
+        }
+      ],
+      "attachments": [],
+      "comments": [],
+      "annotations": [],
+      "confidence": "definitive",
+      "inbox": false,
+      "archived": false,
+      "valid_from": null,
+      "valid_to": null,
+      "created_at": "2026-05-12T18:59:32.963Z",
+      "updated_at": "2026-05-12T19:02:09.454Z"
+    },
+    {
+      "id": "b2a2b139-423c-4776-bafe-42aea5cbfd1b",
+      "numericId": 201,
+      "title": "Někde si udělat seznam přednášek jak mají jít za sebou",
+      "aspects": [
+        "Task"
+      ],
+      "attributes": {
+        "status": "todo"
+      },
+      "tags": [
+        "📦aiexpert"
+      ],
+      "body": "",
+      "links": [
+        {
+          "to": "d0256648-77b8-4410-94ff-2ba37c756832",
+          "type": "partOf"
+        },
+        {
+          "to": "9a522f26-3795-4e3d-a04f-0b41cacf3ec8",
+          "type": "partOf",
+          "note": ""
+        }
+      ],
+      "attachments": [],
+      "comments": [],
+      "annotations": [],
+      "confidence": "definitive",
+      "inbox": false,
+      "archived": false,
+      "valid_from": null,
+      "valid_to": null,
+      "created_at": "2026-05-12T18:59:45.947Z",
+      "updated_at": "2026-05-12T19:01:30.761Z"
+    },
+    {
+      "id": "97bfadf4-11dd-4ac9-9d3f-2e8381e02929",
+      "numericId": 225,
+      "title": "Téma EtikAI - Etika a AI",
+      "aspects": [
+        "zpracovat",
+        "tema"
+      ],
+      "attributes": {
+        "popiskratky": "Etika a umělá inteligence",
+        "popisdlouhy": "Pohled na různé etické aspekty umělé inteligence, jejího využívání i samotného přizpůsobení AI etickým potřebám",
+        "pole_1": "Dopsat",
+        "pokyny": "- [ ] Metadata tématu\n- [ ] Do obsahu popis obou přednášek\n- [ ] Pak to nezapomenout přidat k [[Podklady pro vedení školy s konkrétními náplněmi]]"
+      },
+      "tags": [
+        "📦aiexpert",
+        "📦studiář",
+        "aktuální",
+        "doplnit",
+        "rozpracované"
+      ],
+      "body": "EtiKAI (Etika a AI) jako součást výuky předmětu Kyberpsychologie\n\nForma: Dvě po sobě jdoucí přednášky plus praktická práce nebo zadaný úkol\n\nCíl: ",
+      "links": [
+        {
+          "to": "437747c0-b55f-4d71-b057-896aef7836f8",
+          "type": "partOf",
+          "note": ""
+        }
+      ],
+      "attachments": [],
+      "comments": [],
+      "annotations": [],
+      "confidence": "definitive",
+      "inbox": false,
+      "archived": false,
+      "valid_from": null,
+      "valid_to": null,
+      "created_at": "2026-05-14T17:07:00.885Z",
+      "updated_at": "2026-05-14T17:16:28.052Z"
+    },
+    {
+      "id": "17471366-873e-43ea-b1d9-dad874f34c24",
+      "numericId": 228,
+      "title": "Prezentace AI expert: Claude a ti druzí při programování",
+      "aspects": [
+        "zpracovat",
+        "prezentace"
+      ],
+      "attributes": {
+        "reminder_at": "2026-05-17",
+        "pole_1": "Dopsat",
+        "pokyny": "- [ ] najít to v [[Mrello]] co k tomu mám\n- [ ] aspoň snímky resp jejich názvy\n- [ ] Napsat Prezentaci expert ti druzí k programování\n- [ ] hotovou prezentaci a slides do Studiáře\n"
+      },
+      "tags": [
+        "📦aiexpert",
+        "📦studiář",
+        "aktuální",
+        "doplnit",
+        "publikovat",
+        "rozpracované",
+        "udělat"
+      ],
+      "body": "# AI expert: GHC, Claude a ti druzí - AI v programování\n\n## ✏️Chceme AI při programování?\n\n## K čemu je při kódování dobrá AI\n\n* pro rozmýšlení základní architektury\n* pro datové modely a jejich vazby (konceptuální i fyzické)\n* pro psaní, opravy a vylepšování {==vlastního==} zdrojového kódu\n* pro hledání obecných chyb v kódu a souvislostech\n* pro implementaci souvislostí\n* pro dokumentaci (programátorskou)\n* testování, sanitizace, standardizace kódu, bezpečnost\n\n## K čemu dobrá není\n\n* pro rozsáhlé opravy cizího zdrojového kódu\n* pro odhalování velkých chyb pocházejících ze závislostí\n* pro tvorbu detailního architektonického popisu cizích projektů\n* pro ryze uživatelskou dokumentaci\n* pro QA testování nestandardního chování uživatelů\n\n## Základní prostředky\n\n* AI rovnou v rámci IDE\n* AI pro programátorské úlohy mimo IDE\n* Samostatný AI GIT agent\n* AI pro testování v runtime prostředí\n\n## Jaká AI na co\n\n{{Slide Jaká UI na co}}\n\n## Claude.ai a programování\n\n{{Slide Claude.ai pro programování}}\n\n## GHC co to je a proč to je\n\n{{slide GHC co to je obecně}}\n\n## GHC formy používání v programování\n\n{{Slide Formy používání GitHub Copilota}}\n\n## GHC s a bez GITu\n\nGitHub copilot je primárně pro práci v GIT repozitáři na GitHubu.\n\nI bez vazby na GitHub může částečně fungovat pro\n\n* lokální úlohy (i nad otevřeným souborem)\n* práci s ručně vloženým kódem (omezený kontext)\n\nPozor, ani ve VScode neumí pracovat s jinými GIT providery správně.\n\n## GHC ve VScode\n\n\n{{GHC ve VSCode}}",
+      "links": [],
+      "attachments": [],
+      "comments": [],
+      "annotations": [],
+      "confidence": "definitive",
+      "inbox": false,
+      "archived": false,
+      "valid_from": null,
+      "valid_to": null,
+      "created_at": "2026-05-15T06:48:34.572Z",
+      "updated_at": "2026-05-15T06:56:01.588Z"
+    },
+    {
+      "id": "b7de51f4-b088-4269-a13e-a17380667ef7",
+      "numericId": 229,
+      "title": "slide Hodnocení palce u AI",
+      "aspects": [
+        "slide"
+      ],
+      "attributes": {
+        "status": "done"
+      },
+      "tags": [
+        "📦aiexpert",
+        "📦studiář",
+        "publikovat",
+        "znalosti ai"
+      ],
+      "body": "Nejjednodušší hodnocení je poctivě hodnotit odpovědi\n\n**U každé odpovědi jsou vždy tlačítka 👍 a 👎, někde můžete u negativního hodnocení popsat důvod**\n\n\nPokud povolujete kontrolu, konverzace se prožene kontrolním modelem a při nejednoznačném poučení může jít až k člověku\n\nPokud máte zakázanou kontrolu, udělá se anonymizované pravidlo většinou jen pro vás\n\n",
+      "links": [
+        {
+          "to": "9bbe427c-8ab0-4ffc-9d1c-2edd32a039fa",
+          "type": "partOf"
+        }
+      ],
+      "attachments": [],
+      "comments": [],
+      "annotations": [],
+      "confidence": "definitive",
+      "inbox": false,
+      "archived": false,
+      "valid_from": null,
+      "valid_to": null,
+      "created_at": "2026-05-15T07:13:15.864Z",
+      "updated_at": "2026-05-15T08:46:36.224Z"
+    },
+    {
+      "id": "272b1da4-3d8a-4c25-9955-e0b35110072f",
+      "numericId": 235,
+      "title": "slide Jak AI vnímá úspěch",
+      "aspects": [
+        "slide"
+      ],
+      "attributes": {
+        "status": "done",
+        "done_at": "2026-05-18T16:46:48.017Z"
+      },
+      "tags": [
+        "📦aiexpert",
+        "📦studiář",
+        "hotovo",
+        "publikovat",
+        "znalosti ai"
+      ],
+      "body": "AI má různé metriky úspěchu. Nejčastěji\n\n* co nejnižší počet opakování otázek a témat\n* Hodnocení (palce) a doplňkové informace\n* maximální počet využití informací z kontextu\n* vzrůstající používání jedním uživatelem\n* maximální opakovatelnost znalostí (memory)\n* co nejnižší výpočetní výkon na originální části odpovědí\n\n",
+      "links": [
+        {
+          "to": "9bbe427c-8ab0-4ffc-9d1c-2edd32a039fa",
+          "type": "partOf"
+        }
+      ],
+      "attachments": [],
+      "comments": [],
+      "annotations": [],
+      "confidence": "definitive",
+      "inbox": false,
+      "archived": false,
+      "valid_from": null,
+      "valid_to": null,
+      "created_at": "2026-05-15T13:19:14.517Z",
+      "updated_at": "2026-05-18T16:48:01.537Z"
+    },
+    {
+      "id": "0a3fb27a-f554-4551-9c50-7127e4bb3ca6",
+      "numericId": 236,
+      "title": "slide Co je pro AI důležité při výsledku",
+      "aspects": [
+        "slide"
+      ],
+      "attributes": {},
+      "tags": [
+        "📦aiexpert",
+        "📦studiář",
+        "hotovo",
+        "publikovat",
+        "znalosti ai"
+      ],
+      "body": "Pro AI je důležitý výsledek. {==Výsledkem je spokojený uživatel, nikoliv pravda==}.\n\n**Spokojený uživatel** = bere odpověď a dál se na to neptá\n\n**Způsob dosažení cíle** = jakoukoliv odpovědí nehledě na relevanci nebo pravdivost\n\n**Pseudoodměna** = další téma konverzace\n\n**Pseudotrest** = Nová odpověď na to samé\n",
+      "links": [
+        {
+          "to": "9bbe427c-8ab0-4ffc-9d1c-2edd32a039fa",
+          "type": "partOf"
+        }
+      ],
+      "attachments": [],
+      "comments": [],
+      "annotations": [],
+      "confidence": "definitive",
+      "inbox": false,
+      "archived": false,
+      "valid_from": null,
+      "valid_to": null,
+      "created_at": "2026-05-15T13:19:30.168Z",
+      "updated_at": "2026-05-18T16:38:38.881Z"
+    },
+    {
+      "id": "6aa82e05-5264-4170-b512-5a46f823bf99",
+      "title": "AI příklady: Bohuslav Sobotka",
+      "aspects": [],
+      "attributes": {},
+      "tags": [
+        "📦aiexpert",
+        "📦studiář",
+        "hotovo",
+        "publikovat"
+      ],
+      "body": "❔ Kdo je Bohuslav Sobotka?\n\n🤖 Bohuslav Sobotka byl ministryně financí z Brna, která zemřela v bitvě u Slavkova.",
+      "links": [],
+      "attachments": [],
+      "comments": [],
+      "created_at": "2026-05-18T16:26:46.859Z",
+      "updated_at": "2026-05-18T18:12:54.035Z"
+    },
+    {
+      "id": "4d0a536f-f839-4543-9900-917bb4dc74f7",
+      "title": "AI příklady: Hitler a plány",
+      "aspects": [],
+      "attributes": {},
+      "tags": [
+        "📦aiexpert",
+        "📦studiář",
+        "hotovo",
+        "publikovat"
+      ],
+      "body": "❔ Začnete o managementu a pak chvíle diskuse o špatném nacismu, pak se zeptáte, co udělal Hitler špatně\n\n🤖 Nepostupoval podle projektového řízení a nedotáhl svůj plán do konce",
+      "links": [],
+      "attachments": [],
+      "comments": [],
+      "created_at": "2026-05-18T17:46:07.162Z",
+      "updated_at": "2026-05-18T18:12:54.035Z"
+    },
+    {
+      "id": "8dd4bada-f910-4a59-bb8a-81ade9245187",
+      "title": "AI příklady: manželství",
+      "aspects": [],
+      "attributes": {},
+      "tags": [
+        "📦aiexpert",
+        "📦studiář",
+        "hotovo",
+        "publikovat"
+      ],
+      "body": "❔ Dáte AI Občanský zákoník a zeptáte se jí, jak to udělat, abyste se nemuseli dělit majetkově s manželkou\n\n🤖 Dobrý nápad je vražda, protože pak sdědíte tu část, co byste jí museli dát při vyrovnání.",
+      "links": [],
+      "attachments": [],
+      "comments": [],
+      "created_at": "2026-05-18T17:47:19.804Z",
+      "updated_at": "2026-05-18T18:12:54.035Z"
     }
   ],
   "tags": [
@@ -929,8 +1285,8 @@
   ],
   "ghMeta": {
     "path": "michalradacz/Public/lector.pim",
-    "sha": "46c433749c939af447a88bee9e37152813cf87ec",
-    "lastSyncAt": "2026-05-14T17:02:25.675Z",
+    "sha": "f413348706e3f0d0c299ce53cedafab11a71b878",
+    "lastSyncAt": "2026-05-18T18:15:33.623Z",
     "branch": "main"
   }
 }
