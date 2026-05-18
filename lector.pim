@@ -3,7 +3,7 @@
   "title": "Studiář",
   "description": "",
   "created_at": "2026-05-12T13:14:26.794Z",
-  "updated_at": "2026-05-18T18:23:30.877Z",
+  "updated_at": "2026-05-18T19:42:19.227Z",
   "entities": [
     {
       "id": "1286776b-765c-43e0-b970-dd3c59e286ee",
@@ -170,6 +170,7 @@
       "tags": [
         "📦aiexpert",
         "📦studiář",
+        "exportovat",
         "hotovo",
         "publikovat",
         "znalosti ai"
@@ -189,7 +190,7 @@
       "valid_from": null,
       "valid_to": null,
       "created_at": "2026-05-12T09:24:28.275Z",
-      "updated_at": "2026-05-18T18:23:28.231Z",
+      "updated_at": "2026-05-18T19:42:17.372Z",
       "usePresentation": true
     },
     {
@@ -1192,18 +1193,47 @@
       "comments": [],
       "created_at": "2026-05-18T17:47:19.804Z",
       "updated_at": "2026-05-18T18:12:54.035Z"
+    },
+    {
+      "id": "d290fccb-447b-4946-8a3f-5f2bcb150bb9",
+      "numericId": 237,
+      "title": "Hodit přednášku vychovávání AI na YT",
+      "aspects": [
+        "Task"
+      ],
+      "attributes": {
+        "deadline": "2026-05-19"
+      },
+      "tags": [
+        "📦aiexpert",
+        "exportovat",
+        "interní pro autora"
+      ],
+      "body": "",
+      "links": [],
+      "attachments": [],
+      "comments": [],
+      "annotations": [],
+      "confidence": "definitive",
+      "inbox": false,
+      "archived": false,
+      "valid_from": null,
+      "valid_to": null,
+      "created_at": "2026-05-18T19:39:36.401Z",
+      "updated_at": "2026-05-18T19:41:42.134Z"
     }
   ],
   "tags": [
+    "📦aiexpert",
+    "📦studiář",
+    "aktuální",
     "důležité",
+    "exportovat",
     "interní pro autora",
     "publikovat",
     "rozpracované",
-    "znalosti",
-    "aktuální",
     "soubory",
-    "📦aiexpert",
-    "📦studiář"
+    "znalosti"
   ],
   "savedViews": [],
   "customTemplates": [],
@@ -1285,8 +1315,8 @@
   ],
   "ghMeta": {
     "path": "michalradacz/Public/lector.pim",
-    "sha": "c35a0df2773e76802935556b04525cceb0960de4",
-    "lastSyncAt": "2026-05-18T18:23:30.877Z",
+    "sha": "d0c6bac853267c9d20f12e9aaaa0cbd8dff0d992",
+    "lastSyncAt": "2026-05-18T19:23:17.433Z",
     "branch": "main"
   }
 }
