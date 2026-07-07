@@ -1,3 +1,14 @@
+development
+ArchiMate
+PlantUML
+školícími
+školícímu
+školícím
+dekomponovaný
+dekomponované
+dekomponovaná
+dekomponovanou
+dekomponovanými
 Cab
 Chrome
 Chromium
