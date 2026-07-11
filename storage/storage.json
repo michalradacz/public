@@ -4,7 +4,7 @@
   "name": "public.michalrada.cz",
   "description": "Moje public storage",
   "theme": "light-auto",
-  "modified": "2026-07-11T20:00:50.226Z",
+  "modified": "2026-07-11T20:13:00.186Z",
   "rootItems": [
     {
       "type": "folder",
@@ -23,6 +23,15 @@
       ],
       "created": "2026-07-11T19:59:47.011Z",
       "modified": "2026-07-11T19:59:47.011Z"
+    },
+    {
+      "type": "note",
+      "id": "x1eidlp3bvhxu",
+      "name": "Co tohle je?",
+      "description": "Co je tohle a jak to funguje",
+      "content": "Tohle je moje veřejné storage, tedy uložiště věcí co jsou veřejně ke stažení.",
+      "created": "2026-07-11T20:11:30.834Z",
+      "modified": "2026-07-11T20:13:00.186Z"
     }
   ]
 }
