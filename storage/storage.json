@@ -4,6 +4,25 @@
   "name": "public.michalrada.cz",
   "description": "Moje public storage",
   "theme": "light-auto",
-  "modified": "2026-07-11T19:46:11.208Z",
-  "rootItems": []
+  "modified": "2026-07-11T20:00:50.226Z",
+  "rootItems": [
+    {
+      "type": "folder",
+      "id": "xgb1cylfwgev7",
+      "name": "Moje tvorba",
+      "description": "Všechno možné ode mě",
+      "items": [
+        {
+          "type": "link",
+          "id": "xojfvsx5yhrn6",
+          "name": "GitHub michalradacz",
+          "url": "https://github.com/michalradacz",
+          "description": "Můj oficiální profil na GitHubu a přístup k veřejným repositories",
+          "modified": "2026-07-11T20:00:50.226Z"
+        }
+      ],
+      "created": "2026-07-11T19:59:47.011Z",
+      "modified": "2026-07-11T19:59:47.011Z"
+    }
+  ]
 }
