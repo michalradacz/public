@@ -1,0 +1,9 @@
+{
+  "schema": "dms-storage-v1",
+  "id": "michalradapub",
+  "name": "public.michalrada.cz",
+  "description": "Moje public storage",
+  "theme": "light-auto",
+  "modified": "2026-07-11T19:46:11.208Z",
+  "rootItems": []
+}
