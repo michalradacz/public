@@ -4,7 +4,7 @@
   "name": "public.michalrada.cz",
   "description": "Moje public storage",
   "theme": "light-auto",
-  "modified": "2026-07-12T06:20:57.903Z",
+  "modified": "2026-07-12T07:02:12.292Z",
   "rootItems": [
     {
       "type": "folder",
@@ -33,7 +33,7 @@
           "type": "file",
           "id": "Komixobslouzimenekdo",
           "name": "Komixový obrázek Míša s bílou holí u prázdného stánku s bublinou Tak obslouží mě někdo?",
-          "description": "",
+          "description": "Obrázek v komixové úpravě a stylizaci. Michal stojí u prázdného zavřeného dřevěného stánku na evidentně zavřených rzích, ve volnočasovém oblečení a v ruce má bílou hůl a netrpělivý výraz. Nad ním je řečová bublina \"Tak obslouží mě někdo...?\"",
           "versions": [
             {
               "timestamp": "2026-07-12T06:20:57.903Z",
@@ -45,7 +45,7 @@
             }
           ],
           "created": "2026-07-12T06:15:11.337Z",
-          "modified": "2026-07-12T06:20:57.903Z"
+          "modified": "2026-07-12T07:02:12.292Z"
         }
       ],
       "created": "2026-07-11T19:59:47.011Z",
