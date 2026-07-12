@@ -4,7 +4,7 @@
   "name": "public.michalrada.cz",
   "description": "Moje public storage",
   "theme": "light-auto",
-  "modified": "2026-07-12T09:16:53.150Z",
+  "modified": "2026-07-12T09:20:47.261Z",
   "rootItems": [
     {
       "type": "folder",
@@ -161,11 +161,29 @@
               "size": 256072,
               "device": "Michal mac Windows",
               "filename": "michalradapub_komixdasenkahajanapasucvici_2026-07-12_11-16.jpeg",
-              "sha": null
+              "sha": "bece8d5972c357809a51024fc8893647da98258f"
             }
           ],
           "created": "2026-07-12T09:16:37.047Z",
           "modified": "2026-07-12T09:16:53.150Z"
+        },
+        {
+          "type": "file",
+          "id": "komixmisaskolikostra",
+          "name": "Komixový obrázek Míša školpi kostru",
+          "description": "Míša školí už tak dlouho, že je ze studentky kostra",
+          "versions": [
+            {
+              "timestamp": "2026-07-12T09:20:47.261Z",
+              "description": "",
+              "size": 59998,
+              "device": "Michal mac Windows",
+              "filename": "michalradapub_komixmisaskolikostra_2026-07-12_11-20.jpeg",
+              "sha": null
+            }
+          ],
+          "created": "2026-07-12T09:20:29.171Z",
+          "modified": "2026-07-12T09:20:47.261Z"
         }
       ],
       "created": "2026-07-11T19:59:47.011Z",
