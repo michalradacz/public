@@ -4,7 +4,7 @@
   "name": "public.michalrada.cz",
   "description": "Moje public storage",
   "theme": "light-auto",
-  "modified": "2026-07-12T07:02:12.292Z",
+  "modified": "2026-07-12T09:03:51.797Z",
   "rootItems": [
     {
       "type": "folder",
@@ -25,9 +25,25 @@
           "id": "Komixy-bilahul-puvodni",
           "name": "Série komixy s bílou holí- původní 2016-2017",
           "description": "Série komixových obrázků s bílou holí pro HN",
-          "versions": [],
+          "versions": [
+            {
+              "timestamp": "2026-07-12T09:03:51.797Z",
+              "description": "Muž s bílou holí hraje na bicí",
+              "size": 345181,
+              "device": "Michal mac Windows",
+              "filename": "michalradapub_Komixy-bilahul-puvodni_bici_2026-07-12_11-03.jpeg",
+              "sha": null,
+              "partId": "bici"
+            }
+          ],
           "created": "2026-07-12T06:10:58.215Z",
-          "modified": "2026-07-12T06:10:58.215Z"
+          "modified": "2026-07-12T09:03:51.797Z",
+          "parts": [
+            {
+              "id": "bici",
+              "name": "Bílá hůl a cibí"
+            }
+          ]
         },
         {
           "type": "file",
