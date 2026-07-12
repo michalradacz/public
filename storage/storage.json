@@ -4,7 +4,7 @@
   "name": "public.michalrada.cz",
   "description": "Moje public storage",
   "theme": "light-auto",
-  "modified": "2026-07-12T09:10:12.355Z",
+  "modified": "2026-07-12T09:11:14.567Z",
   "rootItems": [
     {
       "type": "folder",
@@ -77,12 +77,21 @@
               "size": 314369,
               "device": "Michal mac Windows",
               "filename": "michalradapub_Komixy-bilahul-puvodni_lehokolo_2026-07-12_11-10.jpeg",
-              "sha": null,
+              "sha": "f60f06150141bd576768f3f43e3b70a6cb529b0f",
               "partId": "lehokolo"
+            },
+            {
+              "timestamp": "2026-07-12T09:11:14.567Z",
+              "description": "Snaží se osahávat svojí bílou holí krásné ženy",
+              "size": 265596,
+              "device": "Michal mac Windows",
+              "filename": "michalradapub_Komixy-bilahul-puvodni_vosahavani_2026-07-12_11-11.jpeg",
+              "sha": null,
+              "partId": "vosahavani"
             }
           ],
           "created": "2026-07-12T06:10:58.215Z",
-          "modified": "2026-07-12T09:10:12.355Z",
+          "modified": "2026-07-12T09:11:14.567Z",
           "parts": [
             {
               "id": "bici",
@@ -107,6 +116,10 @@
             {
               "id": "lehokolo",
               "name": "Na lehokole s bílou holí"
+            },
+            {
+              "id": "vosahavani",
+              "name": "Vošáhávání holek bílou holí"
             }
           ]
         },
