@@ -4,7 +4,7 @@
   "name": "public.michalrada.cz",
   "description": "Moje public storage",
   "theme": "light-auto",
-  "modified": "2026-07-12T09:06:15.308Z",
+  "modified": "2026-07-12T09:07:13.310Z",
   "rootItems": [
     {
       "type": "folder",
@@ -50,12 +50,21 @@
               "size": 262504,
               "device": "Michal mac Windows",
               "filename": "michalradapub_Komixy-bilahul-puvodni_dirigent_2026-07-12_11-06.jpeg",
-              "sha": null,
+              "sha": "76a03edd0e317d6bdae550a6bda20d0b14e113e1",
               "partId": "dirigent"
+            },
+            {
+              "timestamp": "2026-07-12T09:07:13.310Z",
+              "description": "Muž stojí na ulici a hraje na svoji bílou hůl jako na klarinet",
+              "size": 432399,
+              "device": "Michal mac Windows",
+              "filename": "michalradapub_Komixy-bilahul-puvodni_klarinet_2026-07-12_11-07.jpeg",
+              "sha": null,
+              "partId": "klarinet"
             }
           ],
           "created": "2026-07-12T06:10:58.215Z",
-          "modified": "2026-07-12T09:06:15.308Z",
+          "modified": "2026-07-12T09:07:13.310Z",
           "parts": [
             {
               "id": "bici",
@@ -68,6 +77,10 @@
             {
               "id": "dirigent",
               "name": "Dirigent diriguje bílou holí orchestr"
+            },
+            {
+              "id": "klarinet",
+              "name": "Bílá hůl jako klarinet"
             }
           ]
         },
