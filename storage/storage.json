@@ -4,7 +4,7 @@
   "name": "public.michalrada.cz",
   "description": "Moje public storage",
   "theme": "light-auto",
-  "modified": "2026-07-12T09:11:14.567Z",
+  "modified": "2026-07-12T09:16:53.150Z",
   "rootItems": [
     {
       "type": "folder",
@@ -91,7 +91,7 @@
             }
           ],
           "created": "2026-07-12T06:10:58.215Z",
-          "modified": "2026-07-12T09:11:14.567Z",
+          "modified": "2026-07-12T09:15:23.671Z",
           "parts": [
             {
               "id": "bici",
@@ -121,6 +121,14 @@
               "id": "vosahavani",
               "name": "Vošáhávání holek bílou holí"
             }
+          ],
+          "comments": [
+            {
+              "id": "xj1oe43thvkpj",
+              "author": "Michal mac Windows",
+              "text": "Tohle je moje pradávná série komixových obrázků co všechno se dá dělat s bílou holí. Tak si to užijte a zavzpomínejte.",
+              "created": "2026-07-12T09:15:23.671Z"
+            }
           ]
         },
         {
@@ -140,6 +148,24 @@
           ],
           "created": "2026-07-12T06:15:11.337Z",
           "modified": "2026-07-12T07:02:12.292Z"
+        },
+        {
+          "type": "file",
+          "id": "komixdasenkahajanapasucvici",
+          "name": "Komix Dášenka hrozně maká (hajá) na běžícím pásu",
+          "description": "",
+          "versions": [
+            {
+              "timestamp": "2026-07-12T09:16:53.150Z",
+              "description": "",
+              "size": 256072,
+              "device": "Michal mac Windows",
+              "filename": "michalradapub_komixdasenkahajanapasucvici_2026-07-12_11-16.jpeg",
+              "sha": null
+            }
+          ],
+          "created": "2026-07-12T09:16:37.047Z",
+          "modified": "2026-07-12T09:16:53.150Z"
         }
       ],
       "created": "2026-07-11T19:59:47.011Z",
