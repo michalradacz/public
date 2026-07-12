@@ -4,7 +4,7 @@
   "name": "public.michalrada.cz",
   "description": "Moje public storage",
   "theme": "light-auto",
-  "modified": "2026-07-12T09:09:03.478Z",
+  "modified": "2026-07-12T09:10:12.355Z",
   "rootItems": [
     {
       "type": "folder",
@@ -68,12 +68,21 @@
               "size": 135242,
               "device": "Michal mac Windows",
               "filename": "michalradapub_Komixy-bilahul-puvodni_krizekzavirani_2026-07-12_11-09.jpeg",
-              "sha": null,
+              "sha": "c2fae0301a7044402d7b1d53ea31df4340b331a4",
               "partId": "krizekzavirani"
+            },
+            {
+              "timestamp": "2026-07-12T09:10:12.355Z",
+              "description": "Muž sedí respektive leží na lehokole a snaží se navigovat cestu bílou holí",
+              "size": 314369,
+              "device": "Michal mac Windows",
+              "filename": "michalradapub_Komixy-bilahul-puvodni_lehokolo_2026-07-12_11-10.jpeg",
+              "sha": null,
+              "partId": "lehokolo"
             }
           ],
           "created": "2026-07-12T06:10:58.215Z",
-          "modified": "2026-07-12T09:09:03.478Z",
+          "modified": "2026-07-12T09:10:12.355Z",
           "parts": [
             {
               "id": "bici",
@@ -94,6 +103,10 @@
             {
               "id": "krizekzavirani",
               "name": "Bílá hůl jako obří stylus na obří obrazovce kde je křížek pro zavření okna"
+            },
+            {
+              "id": "lehokolo",
+              "name": "Na lehokole s bílou holí"
             }
           ]
         },
