@@ -4,7 +4,7 @@
   "name": "public.michalrada.cz",
   "description": "Moje public storage",
   "theme": "light-auto",
-  "modified": "2026-07-12T09:03:51.797Z",
+  "modified": "2026-07-12T09:05:03.429Z",
   "rootItems": [
     {
       "type": "folder",
@@ -32,16 +32,29 @@
               "size": 345181,
               "device": "Michal mac Windows",
               "filename": "michalradapub_Komixy-bilahul-puvodni_bici_2026-07-12_11-03.jpeg",
-              "sha": null,
+              "sha": "b286ed24bdb598626afde4fe32e688fff9e33de2",
               "partId": "bici"
+            },
+            {
+              "timestamp": "2026-07-12T09:05:03.429Z",
+              "description": "Muž se bílou holí rozhlíží jako dalekohledem",
+              "size": 251874,
+              "device": "Michal mac Windows",
+              "filename": "michalradapub_Komixy-bilahul-puvodni_dalekohled_2026-07-12_11-05.jpeg",
+              "sha": null,
+              "partId": "dalekohled"
             }
           ],
           "created": "2026-07-12T06:10:58.215Z",
-          "modified": "2026-07-12T09:03:51.797Z",
+          "modified": "2026-07-12T09:05:03.429Z",
           "parts": [
             {
               "id": "bici",
               "name": "Bílá hůl a cibí"
+            },
+            {
+              "id": "dalekohled",
+              "name": "Bílá hůl jako dalekohled"
             }
           ]
         },
