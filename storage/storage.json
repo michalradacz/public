@@ -4,7 +4,7 @@
   "name": "public.michalrada.cz",
   "description": "Moje public storage",
   "theme": "light-auto",
-  "modified": "2026-07-12T09:20:47.261Z",
+  "modified": "2026-07-12T09:26:35.679Z",
   "rootItems": [
     {
       "type": "folder",
@@ -170,7 +170,7 @@
         {
           "type": "file",
           "id": "komixmisaskolikostra",
-          "name": "Komixový obrázek Míša školpi kostru",
+          "name": "Komixový obrázek Míša školí kostru",
           "description": "Míša školí už tak dlouho, že je ze studentky kostra",
           "versions": [
             {
@@ -179,11 +179,11 @@
               "size": 59998,
               "device": "Michal mac Windows",
               "filename": "michalradapub_komixmisaskolikostra_2026-07-12_11-20.jpeg",
-              "sha": null
+              "sha": "0d12d6285938852f0c18ab9d0a7297bb3ec566b8"
             }
           ],
           "created": "2026-07-12T09:20:29.171Z",
-          "modified": "2026-07-12T09:20:47.261Z"
+          "modified": "2026-07-12T09:26:35.679Z"
         }
       ],
       "created": "2026-07-11T19:59:47.011Z",
