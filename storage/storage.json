@@ -4,7 +4,7 @@
   "name": "public.michalrada.cz",
   "description": "Moje public storage",
   "theme": "light-auto",
-  "modified": "2026-07-12T09:05:03.429Z",
+  "modified": "2026-07-12T09:06:15.308Z",
   "rootItems": [
     {
       "type": "folder",
@@ -41,12 +41,21 @@
               "size": 251874,
               "device": "Michal mac Windows",
               "filename": "michalradapub_Komixy-bilahul-puvodni_dalekohled_2026-07-12_11-05.jpeg",
-              "sha": null,
+              "sha": "fcd4affeea6608861dfede2c84618fbe6a722e45",
               "partId": "dalekohled"
+            },
+            {
+              "timestamp": "2026-07-12T09:06:15.307Z",
+              "description": "Muž stojí před malým orchestrem a diriguje svojí bílou holí",
+              "size": 262504,
+              "device": "Michal mac Windows",
+              "filename": "michalradapub_Komixy-bilahul-puvodni_dirigent_2026-07-12_11-06.jpeg",
+              "sha": null,
+              "partId": "dirigent"
             }
           ],
           "created": "2026-07-12T06:10:58.215Z",
-          "modified": "2026-07-12T09:05:03.429Z",
+          "modified": "2026-07-12T09:06:15.308Z",
           "parts": [
             {
               "id": "bici",
@@ -55,6 +64,10 @@
             {
               "id": "dalekohled",
               "name": "Bílá hůl jako dalekohled"
+            },
+            {
+              "id": "dirigent",
+              "name": "Dirigent diriguje bílou holí orchestr"
             }
           ]
         },
