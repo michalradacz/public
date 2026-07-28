@@ -1,3 +1,13 @@
+landmarky
+treeview
+sticky
+pozicování
+textarea
+selecty
+zaškrtávátka
+polite
+Šablonáři
+Šablonář
 GitHub
 konverzujte
 jednosouborovou
