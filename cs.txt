@@ -1,3 +1,14 @@
+GIT
+GITu
+GITem
+Copilota
+Copilotem
+repozitář
+repozitáře
+repozitářem
+repozitáři
+repozitářů
+DEVOPS
 development
 ArchiMate
 PlantUML
