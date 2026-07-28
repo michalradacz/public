@@ -1,3 +1,6 @@
+nepovídat
+plug
+VSCode
 GIT
 GITu
 GITem
@@ -184,3 +187,4 @@ eLearningové
 Knowee
 Auditea
 standardizovaně
+e
