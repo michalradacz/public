@@ -1,4 +1,9 @@
-nepovídat
+GitHub
+konverzujte
+jednosouborovou
+dependencies
+webserver
+upřesňujte
 plug
 VSCode
 GIT
