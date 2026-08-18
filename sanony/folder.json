@@ -59,6 +59,14 @@
       "tags": [],
       "created": "2026-08-18T11:05:30.354Z",
       "updated": "2026-08-18T11:05:30.354Z"
+    },
+    {
+      "path": "Nástroje a aplikace/Moje nástroje/Šanony/Nástroj Šanony",
+      "color": "slama",
+      "description": "",
+      "tags": [],
+      "created": "2026-08-18T11:45:35.028Z",
+      "updated": "2026-08-18T11:45:35.028Z"
     }
   ],
   "files": [
@@ -86,5 +94,5 @@
       "locked": true
     }
   ],
-  "updated": "2026-08-18T11:06:37.411Z"
+  "updated": "2026-08-18T11:45:35.028Z"
 }
