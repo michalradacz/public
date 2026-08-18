@@ -19,6 +19,14 @@
       "tags": [],
       "created": "2026-08-18T10:48:19.601Z",
       "updated": "2026-08-18T10:48:19.601Z"
+    },
+    {
+      "path": "Nástroje a aplikace/Moje nástroje/Šanony",
+      "color": "zluta",
+      "description": "Tenhle tool se šanony",
+      "tags": [],
+      "created": "2026-08-18T11:00:35.161Z",
+      "updated": "2026-08-18T11:00:35.161Z"
     }
   ],
   "files": [
@@ -34,5 +42,5 @@
       "updated": "2026-08-18T10:49:03.225Z"
     }
   ],
-  "updated": "2026-08-18T10:59:39.930Z"
+  "updated": "2026-08-18T11:00:35.161Z"
 }
