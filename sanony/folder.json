@@ -21,6 +21,18 @@
       "updated": "2026-08-18T10:48:19.601Z"
     }
   ],
-  "files": [],
-  "updated": "2026-08-18T10:48:19.601Z"
+  "files": [
+    {
+      "name": "Nástroje EGdílny",
+      "type": "odkaz",
+      "url": "https://nastroje.egdilna.cz",
+      "description": "",
+      "folder": "Nástroje a aplikace/Moje nástroje",
+      "tags": [],
+      "notes": [],
+      "created": "2026-08-18T10:49:03.225Z",
+      "updated": "2026-08-18T10:49:03.225Z"
+    }
+  ],
+  "updated": "2026-08-18T10:49:03.225Z"
 }
