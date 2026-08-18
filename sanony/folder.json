@@ -6,11 +6,11 @@
   "nodes": [
     {
       "path": "Nástroje a aplikace",
-      "color": "zluta",
+      "color": "cerna",
       "description": "",
       "tags": [],
       "created": "2026-08-18T10:47:38.847Z",
-      "updated": "2026-08-18T10:47:38.847Z"
+      "updated": "2026-08-18T10:59:39.930Z"
     },
     {
       "path": "Nástroje a aplikace/Moje nástroje",
@@ -34,5 +34,5 @@
       "updated": "2026-08-18T10:49:03.225Z"
     }
   ],
-  "updated": "2026-08-18T10:49:03.225Z"
+  "updated": "2026-08-18T10:59:39.930Z"
 }
