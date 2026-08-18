@@ -3,7 +3,16 @@
   "folder": "sanony",
   "title": "Michalovy šanony",
   "tags": [],
-  "nodes": [],
+  "nodes": [
+    {
+      "path": "Nástroje a aplikace",
+      "color": "zluta",
+      "description": "",
+      "tags": [],
+      "created": "2026-08-18T10:47:38.847Z",
+      "updated": "2026-08-18T10:47:38.847Z"
+    }
+  ],
   "files": [],
-  "updated": "2026-08-18T10:46:47.878Z"
+  "updated": "2026-08-18T10:47:38.847Z"
 }
